@@ -1,30 +1,20 @@
-# Koeltechniek Examenvragen – Cat. I (Eerste examen)
+# Koeltechniek Cat. I – 362 Examenvragen Quiz
 
-**Volledige set van 362 theoretische vragen** met vraagtekst, 4 opties en correct antwoord.
+**Volledige interactieve quiz** met alle 362 theoretische vragen + inhoudelijke uitleg bij elk antwoord.
 
-## Belangrijkste bestand
+## Live quiz
+👉 **https://muwattah.github.io/koeltechniek_Examen/**
 
-**`koeltechniek_deel1_362_volledig.json`**  
-→ Alle 362 vragen, complete opties A/B/C/D + correct_answer (bepaald via vet+cursief in de originele PDF).
-
-## Andere bestanden
-
+## Bestanden
 | Bestand | Beschrijving |
 |---------|--------------|
-| `koeltechniek_deel1_362_volledig.json` | **Volledige dataset (362 vragen)** |
-| `antwoorden_deel1_362.txt` | Alleen de correcte letters |
-| `antwoordensleutel_477_vragen.txt` | Inclusief wetgevingsdeel |
-| `index.html` | Interactieve quiz (selectie + uitleg) |
-| `vragen_*.md` | Markdown-versies van batches |
+| `koeltechniek_deel1_362_volledig.json` | Alle 362 vragen + opties + correct antwoord + **uitleg** |
+| `index.html` | De interactieve quiz |
+| `antwoorden_deel1_362.txt` | Alleen de letters |
 
 ## Gebruik
+1. Open de live link of download de map
+2. Beantwoord de vragen één voor één
+3. Na elk antwoord zie je of het juist/fout is **plus een uitleg**
 
-Je kunt de JSON direct importeren in een quiz-app, of openen in een editor.  
-Elke entry bevat:
-- `question_number`
-- `question`
-- `options` (A/B/C/D)
-- `correct_answer`
-- `source_page`
-
-**Repo:** https://github.com/muwattah/koeltechniek_Examen
+De uitleg is extra studiehulp (niet letterlijk uit de officiële PDF).
