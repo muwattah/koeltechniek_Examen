@@ -170,15 +170,17 @@ let selectedOption = null;
 
 async function loadQuestions() {
   try {
-    const res = await fetch('koeltechniek_deel1_362_volledig.json');
+    const res = await fetch('koeltechniek_deel1_362_volledig.json?v=' + Date.now());
     if (!res.ok) throw new Error('JSON niet gevonden');
     const data = await res.json();
     questions = data.questions;
+    console.log('Geladen vragen:', questions.length);
+    if (questions.length < 300) alert('Let op: er zijn maar ' + questions.length + ' vragen geladen. De JSON is mogelijk niet volledig.');
     document.getElementById('totalQ').textContent = questions.length;
     showQuestion();
   } catch (e) {
     document.getElementById('question-text').textContent = 
-      'Kon de vragen niet laden. Zorg dat koeltechniek_deel1_362_volledig.json in dezelfde map staat als index.html';
+      'Kon de vragen niet laden (JSON fout of niet gevonden). Controleer of koeltechniek_deel1_362_volledig.json correct is geüpload (moet 362 vragen bevatten).';
     console.error(e);
   }
 }
