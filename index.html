@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koeltechniek Examenvragen Quiz - Eerste Examen 2015</title>
+<style>
+  :root {
+    --primary: #0d6efd;
+    --success: #198754;
+    --danger: #dc3545;
+    --bg: #f8f9fa;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd 0%, #f5f5f5 100%);
+    min-height: 100vh;
+    color: #212529;
+    line-height: 1.5;
+  }
+  header {
+    background: #0d47a1;
+    color: white;
+    padding: 1.2rem 1.5rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  }
+  header h1 { font-size: 1.5rem; margin-bottom: .3rem; }
+  header p { opacity: .9; font-size: .95rem; }
+  .container {
+    max-width: 820px;
+    margin: 1.5rem auto;
+    padding: 0 1rem 3rem;
+  }
+  .stats {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.2rem;
+  }
+  .stat-box {
+    background: var(--card);
+    border-radius: 10px;
+    padding: .8rem 1.2rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,.08);
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+  }
+  .stat-box .num { font-size: 1.6rem; font-weight: 700; color: var(--primary); }
+  .stat-box .label { font-size: .8rem; color: #6c757d; }
+  .card {
+    background: var(--card);
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.08);
+    padding: 1.5rem;
+    margin-bottom: 1.2rem;
+  }
+  .q-num {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #0d47a1;
+    font-weight: 600;
+    padding: .2rem .7rem;
+    border-radius: 20px;
+    font-size: .85rem;
+    margin-bottom: .8rem;
+  }
+  .question { font-size: 1.1rem; font-weight: 500; margin-bottom: 1.2rem; }
+  .options { display: flex; flex-direction: column; gap: .6rem; }
+  .option {
+    border: 2px solid #dee2e6;
+    border-radius: 10px;
+    padding: .9rem 1rem;
+    cursor: pointer;
+    transition: all .15s ease;
+    background: #fff;
+    display: flex;
+    align-items: flex-start;
+    gap: .7rem;
+  }
+  .option:hover:not(.disabled) { border-color: var(--primary); background: #f0f7ff; }
+  .option.selected { border-color: var(--primary); background: #e7f1ff; }
+  .option.correct { border-color: var(--success); background: #d1e7dd; }
+  .option.wrong { border-color: var(--danger); background: #f8d7da; }
+  .option.disabled { cursor: default; opacity: .95; }
+  .option-letter {
+    font-weight: 700;
+    min-width: 1.6rem;
+    color: #495057;
+  }
+  .explanation {
+    margin-top: 1.2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: #f8f9fa;
+    border-left: 4px solid #0d6efd;
+    display: none;
+  }
+  .explanation.show { display: block; }
+  .explanation.correct-exp { border-left-color: var(--success); background: #d1e7dd; }
+  .explanation.wrong-exp { border-left-color: var(--danger); background: #f8d7da; }
+  .explanation h4 { margin-bottom: .4rem; font-size: 1rem; }
+  .btn-row {
+    display: flex;
+    gap: .8rem;
+    margin-top: 1.2rem;
+    flex-wrap: wrap;
+  }
+  button {
+    border: none;
+    border-radius: 8px;
+    padding: .65rem 1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background .15s;
+  }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-primary:hover { background: #0b5ed7; }
+  .btn-primary:disabled { background: #adb5bd; cursor: not-allowed; }
+  .btn-secondary { background: #6c757d; color: white; }
+  .btn-secondary:hover { background: #5c636a; }
+  .btn-outline {
+    background: transparent;
+    border: 2px solid #dee2e6;
+    color: #495057;
+  }
+  .btn-outline:hover { border-color: #adb5bd; }
+  .progress-bar {
+    height: 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #0d6efd, #198754);
+    transition: width .3s ease;
+  }
+  .final-score {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .final-score .big { font-size: 3rem; font-weight: 700; color: var(--primary); }
+  .hidden { display: none !important; }
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #6c757d;
+    font-size: .85rem;
+  }
+  @media (max-width: 600px) {
+    .question { font-size: 1rem; }
+    .option { padding: .75rem; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>❄️ Koeltechniek Examenvragen Quiz</h1>
+  <p>Eerste examen – Departement Leefmilieu, Natuur en Energie (versie 13/02/2015)</p>
+</header>
+
+<div class="container">
+  <div class="stats">
+    <div class="stat-box">
+      <div class="num" id="currentQ">1</div>
+      <div class="label">Vraag</div>
+    </div>
+    <div class="stat-box">
+      <div class="num" id="score">0</div>
+      <div class="label">Correct</div>
+    </div>
+    <div class="stat-box">
+      <div class="num" id="totalQ">0</div>
+      <div class="label">Totaal</div>
+    </div>
+  </div>
+
+  <div class="progress-bar">
+    <div class="progress-fill" id="progress" style="width:0%"></div>
+  </div>
+
+  <div id="quiz-area">
+    <div class="card" id="question-card">
+      <span class="q-num" id="q-label">Vraag 1</span>
+      <div class="question" id="question-text"></div>
+      <div class="options" id="options"></div>
+      <div class="explanation" id="explanation"></div>
+      <div class="btn-row">
+        <button class="btn-primary" id="check-btn" disabled>Controleer antwoord</button>
+        <button class="btn-secondary hidden" id="next-btn">Volgende vraag →</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="result-area" class="card final-score hidden">
+    <h2>Quiz afgerond!</h2>
+    <div class="big" id="final-score">0 / 0</div>
+    <p id="score-message" style="margin:1rem 0"></p>
+    <button class="btn-primary" onclick="restartQuiz()">Opnieuw starten</button>
+  </div>
+</div>
+
+<footer>
+  Bron: Examenvragen theoretisch onderdeel koeltechniek – Departement Leefmilieu, Natuur en Energie<br>
+  Correcte antwoorden zijn gebaseerd op de officiële aangeduide antwoorden in het examen.
+</footer>
+
+<script>
+const questions = [
+  {
+    q: "Een reden voor toepassing van indirecte koeling met water in het secundaire circuit zou kunnen zijn:",
+    options: [
+      "een goedkopere installatie",
+      "werken met een secundair koelmiddel laat een veel lager energieverbruik toe",
+      "men kan dan werken met een kleinere hoeveelheid koelmiddel in het primaire koelcircuit",
+      "werken met een lagere verdampingstemperatuur en dus minder energieverbruik"
+    ],
+    correct: 2,
+    explanation: "Bij indirecte koeling (secundair circuit met water of glycol) blijft de hoeveelheid primair koelmiddel (F-gassen) beperkt tot de primaire kring. Dit is gunstig voor milieu- en veiligheidsredenen (minder lekkagerisico van F-gassen)."
+  },
+  {
+    q: "Waarom is het inbrengen van de juiste hoeveelheid koelmiddel in een installatie van zoveel belang?",
+    options: [
+      "omdat het belangrijk is koelmiddel te besparen",
+      "er moet altijd 20% reserve worden ingebracht",
+      "omdat de wetgever het voorschrijft",
+      "omdat alleen dan de installatie onder optimale omstandigheden functioneert"
+    ],
+    correct: 3,
+    explanation: "Een correcte vulling is essentieel voor optimale werking: te weinig koelmiddel → lage capaciteit en hoge oververhitting; te veel → hoge drukken en risico op vloeistofslag. De wetgever schrijft niet een specifieke vulling voor, maar wel correcte procedures."
+  },
+  {
+    q: "Hoe kan men een kleine installatie met koelmiddelinhoud zonder afsluiters drukloos en koelmiddelvrij maken?",
+    options: [
+      "men snijdt voorzichtig de vloeistofleiding door en laat het koelmiddel ontsnappen",
+      "men plaatst een prikkraan op een geschikte leiding en zuigt de koelmachine leeg met een afzuigunit",
+      "men snijdt voorzichtig de vloeistofleiding door en men koppelt een speciale snelkoppeling aan naar een afzuigunit",
+      "men heeft de gewoonte dergelijke units te verschroten zoals ze zijn"
+    ],
+    correct: 1,
+    explanation: "Het is verboden koelmiddel in de atmosfeer te laten ontsnappen. Met een prikkraan (of servicekraan) kan men veilig aansluiten op een afzuigunit en het koelmiddel recupereren."
+  },
+  {
+    q: "Wat is de maximale vulling (in massa) aan koelmiddel van een retourcilinder?",
+    options: ["55%", "98%", "80%", "60%"],
+    correct: 2,
+    explanation: "Retourcilinders mogen maximaal 80% van hun volume met vloeibaar koelmiddel gevuld worden. Dit voorkomt overdruk bij temperatuursstijging (expansie van de vloeistof)."
+  },
+  {
+    q: "Welke regeling op de condensatiedruk kan men toepassen bij watergekoelde condensors?",
+    options: [
+      "het koelmiddeldebiet",
+      "het water- en het koelmiddeldebiet",
+      "het waterdebiet",
+      "de druk in de persleiding"
+    ],
+    correct: 2,
+    explanation: "Bij watergekoelde condensors regelt men de condensatiedruk door het waterdebiet te variëren (bijv. met een waterregelklep). Meer water → lagere condensatiedruk."
+  },
+  {
+    q: "Vacuümzuigen van een installatie heeft tot doel:",
+    options: [
+      "een goede koelmiddelvulling te krijgen",
+      "niet-condenseerbare gassen uit de installatie te verwijderen",
+      "vocht uit de installatie te verwijderen",
+      "niet-condenseerbare gassen en vocht uit de installatie te verwijderen"
+    ],
+    correct: 3,
+    explanation: "Vacuümzuigen verwijdert zowel lucht (niet-condenseerbare gassen) als vocht. Beide zijn schadelijk: lucht verhoogt de condensatiedruk, vocht kan ijspluggen en zuren veroorzaken."
+  },
+  {
+    q: "Vocht in een nieuwe installatie kan vermeden worden door:",
+    options: [
+      "roestvrije buizen te gebruiken",
+      "na montage de installatie grondig vacuüm te trekken",
+      "uitsluitend vochtvrije olie te gebruiken",
+      "nooit de delen met water af te koelen na solderen"
+    ],
+    correct: 1,
+    explanation: "Na montage is grondig vacuüm trekken de beste manier om vocht en lucht te verwijderen. Andere maatregelen helpen, maar vacuüm is de cruciale stap."
+  },
+  {
+    q: "Wat gebeurt er wanneer gefluoreerde koelmiddelen in contact komen met vuur?",
+    options: [
+      "het koelmiddel vat onmiddellijk vuur",
+      "niets, het koelmiddel is onbrandbaar",
+      "er ontstaan giftige stoffen, afkomstig van de ontbinding van het koelmiddel",
+      "er ontstaan ontbindingsproducten van het koelmiddel die echter niet giftig zijn"
+    ],
+    correct: 2,
+    explanation: "HFK’s en HCFK’s zijn in principe niet brandbaar, maar bij hoge temperaturen (vuur) ontbinden ze tot giftige stoffen zoals waterstoffluoride (HF) en fosgeen-achtige verbindingen."
+  },
+  {
+    q: "Hoe vaak moet men de olie van de compressor vervangen na een burn-out?",
+    options: [
+      "maximaal 2 maal: één keer na de burn-out en één keer voor het plaatsen van de definitieve filter",
+      "zoveel keer als nodig is opdat alle sporen van zuren uit de olie verdwenen zijn",
+      "éénmaal na de burn-out en éénmaal bij het wegnemen van de burn-outfilter",
+      "de olie in compressoren moet nooit worden vervangen"
+    ],
+    correct: 1,
+    explanation: "Na een burn-out ontstaan zuren. Men moet de olie (en filters) blijven vervangen tot de zuurtegraad (TAN) acceptabel is. Vaak meerdere keren."
+  },
+  {
+    q: "Het weglekken van gefluoreerde koelmiddelen (zoals bv. van R134a) in een gesloten ruimte:",
+    options: [
+      "is gevaarlijk omdat de gefluoreerde koelmiddelen giftig zijn",
+      "kan bij hoge concentraties dodelijk zijn doordat een tekort aan zuurstof optreedt",
+      "is gevaarlijk omdat de damp van het gefluoreerde koelmiddel met de omgevingslucht een brandbaar mengsel vormt",
+      "is niet gevaarlijk omdat de soortelijke massa van koelmiddeldamp van F-gas veel lager is dan die van lucht"
+    ],
+    correct: 1,
+    explanation: "De meeste F-gassen zijn zwaarder dan lucht en verdringen zuurstof. Bij hoge concentraties ontstaat verstikkingsgevaar (asfyxie), niet zozeer toxiciteit of brandbaarheid."
+  },
+  {
+    q: "Wat is het probleem van hoge temperaturen bij het gebruik van HCFK's of HFK's als koelmiddel?",
+    options: [
+      "het vormen van zuren",
+      "het optreden van corrosie",
+      "explosiegevaar",
+      "het vormen van basische verbindingen"
+    ],
+    correct: 0,
+    explanation: "Bij hoge temperaturen (en aanwezigheid van vocht) kunnen HFK/HCFK-koelmiddelen ontbinden en zuren vormen die de olie aantasten en corrosie veroorzaken."
+  },
+  {
+    q: "De vloeren van de machinekamers:",
+    options: [
+      "moeten zuiver gehouden worden om voortijdig olielekken te kunnen opsporen",
+      "mogen uitsluitend in glad beton worden uitgevoerd",
+      "moeten een belasting kunnen verdragen van minstens 2 ton/m²",
+      "moeten glad en afwasbaar zijn"
+    ],
+    correct: 0,
+    explanation: "Een zuivere vloer maakt het mogelijk olielekken snel te detecteren. Dit is een praktische veiligheids- en onderhoudseis."
+  },
+  {
+    q: "Waarom is het noodzakelijk een pijpsnijder te gebruiken i.p.v. een zaag?",
+    options: [
+      "omdat bij het maken van verbindingen met de doorgezaagde buis de soldering minder goed vasthecht",
+      "omdat het maken van een flareverbinding met een doorgezaagde buis niet mogelijk is",
+      "omdat bij het doorzagen van een pijp meer bramen vrijkomen die in de buis kunnen vallen dan bij het snijden",
+      "omdat met een pijpsnijder veel dikkere buizen kunnen worden doorgesneden dan met een zaag"
+    ],
+    correct: 2,
+    explanation: "Zagen produceert veel bramen en metaaldeeltjes die in de leiding kunnen terechtkomen en later de expansieventielen of compressoren beschadigen. Een pijpsnijder geeft een schonere snede."
+  },
+  {
+    q: "Hoe voorkomt men vorming van koperoxide bij het solderen?",
+    options: [
+      "door het gebruik van een gepast vloeimiddel",
+      "door de buizen inwendig eerst in te oliën",
+      "door het hardsolderen te laten gebeuren onder een voortdurende waterstofstroom",
+      "door het hardsolderen te laten gebeuren onder een voortdurende stikstofstroom"
+    ],
+    correct: 3,
+    explanation: "Door tijdens het solderen een droge stikstofstroom door de leiding te sturen, wordt oxidatie (koperoxide) voorkomen. Waterstof is brandbaar en gevaarlijk."
+  },
+  {
+    q: "Wanneer zijn er corrosieproblemen te vrezen bij gebruik van polyolesteroliën (POE) in een installatie?",
+    options: [
+      "als de esterolie vocht heeft kunnen opslorpen",
+      "POE is een modern smeermiddel waarbij dit probleem niet voorkomt",
+      "corrosieproblemen komen enkel voor bij gebruik van minerale oliën",
+      "als er geen additief bij de olie is toegevoegd"
+    ],
+    correct: 0,
+    explanation: "POE-oliën zijn hygroscopisch: ze nemen makkelijk vocht op. Vocht + POE kan hydrolyseren tot zuren die corrosie veroorzaken. Daarom is een goed vacuüm en droge olie essentieel."
+  },
+  {
+    q: "Hoe kan men de totale hoeveelheid koelmiddel en de nodige cilinders bepalen wanneer men een installatie koelmiddelvrij moet maken?",
+    options: [
+      "door dezelfde inhoud van het vloeistofvat te nemen",
+      "uitsluitend door weging van de hoeveelheid koelmiddel na de installatie van koelmiddel te hebben ontdaan",
+      "door de installatie te wegen en het leeggewicht ervan te bepalen uit de catalogen",
+      "indien de installatie in regel is: door het logboek na te zien, zo niet door berekening"
+    ],
+    correct: 3,
+    explanation: "Bij een correct bijgehouden logboek staat de vulling vermeld. Anders moet men berekenen of na recuperatie wegen."
+  },
+  {
+    q: "Vullen met koelmedia in de vloeistoffase langs de lage drukzijde houdt een risico in. Wat is dit risico?",
+    options: [
+      "men heeft geen enkele controle op de hoeveelheid bij te vullen koelmiddel",
+      "de installatie krijgt gemakkelijk een te grote vloeistofvulling",
+      "de installatie kan een te lage zuigdruk krijgen",
+      "er bestaat een risico van vloeistofslag"
+    ],
+    correct: 3,
+    explanation: "Vloeibaar koelmiddel in de zuigleiding kan de compressor bereiken en vloeistofslag veroorzaken (schade aan kleppen en zuigers)."
+  },
+  {
+    q: "Het vullen in de dampfase is:",
+    options: [
+      "beter dan het vullen in de vloeistoffase omdat het proces gemakkelijker kan worden gecontroleerd",
+      "slechter dan het vullen in de vloeistoffase omdat het te lang duurt en zelfs voor bepaalde koelmiddelen niet mag",
+      "even goed als het vullen in de vloeistoffase",
+      "alleen voor grotere installaties toepasbaar"
+    ],
+    correct: 1,
+    explanation: "Dampfase vullen is traag en voor zeotropische mengsels (R407C, R404A…) niet toegestaan omdat de samenstelling verandert. Vloeistoffase is de juiste methode voor de meeste moderne koelmiddelen."
+  },
+  {
+    q: "Mag water als druktestmedium voor een koelcircuit gebruikt worden?",
+    options: [
+      "neen",
+      "alleen gedistilleerd water",
+      "ja, bij voorkeur",
+      "alleen bij drukken boven de 20 bar"
+    ],
+    correct: 0,
+    explanation: "Water mag niet gebruikt worden als druktestmedium in een koelcircuit. Restvocht is zeer schadelijk. Men gebruikt droge stikstof of een ander inert gas."
+  },
+  {
+    q: "Mag een druktest met gefluoreerde koelmiddelen uitgevoerd worden met koelmiddel?",
+    options: [
+      "ja, omdat de lekken dan makkelijk opgespoord kunnen worden met een elektronische lekdetector",
+      "neen, koelmiddel mag pas op de installatie geplaatst worden na het druk- en lektesten d.m.v. een inert gas",
+      "ja, een mengeling van koelmiddel met een inert gas vergemakkelijkt het opsporen van het lek",
+      "de 3 voorgaande antwoorden zijn mogelijk"
+    ],
+    correct: 1,
+    explanation: "Druk- en lektesten moeten altijd met een inert gas (stikstof) gebeuren. Pas daarna mag koelmiddel worden ingebracht. Dit is zowel een veiligheids- als milieueis."
+  },
+  {
+    q: "Op welke wijze kunnen trillingen aanleiding geven tot lekken aan installaties?",
+    options: [
+      "door trillingen en schokken gaan de veiligheidskleppen open",
+      "leidingen en verbindingen kunnen breken door metaalmoeheid",
+      "vooral de vuldop voor het koelmiddel zal gaan los trillen, met lekkage tot gevolg",
+      "alle voorgaande antwoorden zijn mogelijk"
+    ],
+    correct: 1,
+    explanation: "Langdurige trillingen leiden tot metaalmoeheid in leidingen en verbindingen, waardoor scheuren en lekken ontstaan."
+  },
+  {
+    q: "Waarom is het thermostatische expansieventiel met flareverbinding dikwijls een bron van lekkage?",
+    options: [
+      "omdat door de temperatuurschommelingen de flareverbinding naar de verdamper wel eens loskomt",
+      "doordat het capillair naar de voeler door metaalmoeheid breekt en daardoor het koelmiddel kan weglekken",
+      "omdat door de trillingen van het expansieventiel de schroefverbindingen van de flare kunnen loskomen waarlangs het koelmiddel dan kan weglekken",
+      "omdat in het expansieventiel de hoge en de lage druk samenkomen en daardoor in functie van de temperatuur lekken tussen deze drukken kunnen optreden"
+    ],
+    correct: 0,
+    explanation: "Flareverbindingen zijn gevoelig voor temperatuurschommelingen en kunnen loskomen. Gesoldeerde verbindingen zijn betrouwbaarder."
+  },
+  {
+    q: "Hoe kan men emissie van koelmiddel uit een thermostatisch expansieorgaan voorkomen?",
+    options: [
+      "door het zorgvuldig te isoleren",
+      "door het capillair stevig te bevestigen",
+      "door een gesoldeerd exemplaar te gebruiken",
+      "door het drukverschil zo laag mogelijk te maken"
+    ],
+    correct: 2,
+    explanation: "Een gesoldeerd expansieventiel heeft geen flareverbindingen en lekt daardoor veel minder."
+  },
+  {
+    q: "Hoe soldeert men leidingen aan een hermetische zuigercompressor?",
+    options: [
+      "door hem vacuüm te zuigen, daarna te vullen met stikstof en dan de leidingen te solderen",
+      "door er via de perszijde een droge stikstofstroom met klein debiet door te sturen en dan de leidingen te solderen",
+      "deze verbindingen kunnen niet onder stikstofatmosfeer worden gesoldeerd; men soldeert ze in de lucht",
+      "door er via de zuigzijde een droge stikstofstroom met klein debiet door te sturen en dan de leidingen te solderen"
+    ],
+    correct: 3,
+    explanation: "Men stuurt via de zuigzijde een kleine stikstofstroom zodat oxidatie binnenin vermeden wordt zonder de compressor te beschadigen."
+  },
+  {
+    q: "Waaraan moeten koeltechnische koperen leidingen voldoen?",
+    options: [
+      "zij zijn uit een speciale, koeltechnisch gemakkelijk lasbare koperlegering met een smeltpunt van 987°C gemaakt",
+      "zij bestaan uit zuiver, zacht en speciaal onthard koper die uitsluitend op rol wordt geleverd",
+      "zij hebben een minimale wanddikte van 1 mm en zijn bestand tegen een druk van ten minste 25 bar",
+      "zij bestaan uit zuiver koper en zijn gedeshydrateerd en inwendig gepolijst"
+    ],
+    correct: 3,
+    explanation: "Koelleidingen zijn van zuiver (fosfor-desoxideerd) koper, gedroogd en inwendig gepolijst om vocht en deeltjes te vermijden."
+  },
+  {
+    q: "Waarom dient men een soldeerverbinding niet te snel af te koelen?",
+    options: [
+      "om het ontstaan van krimpscheuren te vermijden",
+      "om te vermijden dat de buitenste pijp scheurt",
+      "om de hardheid van het koper niet te laten verloren gaan",
+      "om de pijp niet te veel te laten oxideren"
+    ],
+    correct: 0,
+    explanation: "Te snelle afkoeling kan krimpscheuren veroorzaken in de soldeerverbinding door ongelijke samentrekking."
+  },
+  {
+    q: "Welke voorzorgsmaatregel dient men altijd te nemen bij het solderen aan een expansieventiel?",
+    options: [
+      "men mag het alleen zachtsolderen met een kleine vlam",
+      "men moet geen speciale voorzorgen nemen, enkel zo snel mogelijk solderen en met kleine vlam werken",
+      "vermijden dat het inwendige oververhit geraakt",
+      "men mag nooit solderen aan een expansieventiel; men moet steeds een flareverbinding gebruiken"
+    ],
+    correct: 2,
+    explanation: "Het inwendige van het expansieventiel (diafragma, naald) mag niet oververhit raken, anders kan het beschadigd worden."
+  },
+  {
+    q: "Welke eisen dienen te worden gesteld aan vacuümpompen?",
+    options: [
+      "zij moeten een voldoende olievoorraad hebben",
+      "zij moeten minstens tweetraps zijn",
+      "zij moeten minstens drietraps zijn",
+      "zij moeten minstens eentraps zijn"
+    ],
+    correct: 1,
+    explanation: "Tweetraps vacuümpompen bereiken een dieper vacuüm (lager restvocht) dan eentraps pompen, wat essentieel is voor een goede droging."
+  },
+  {
+    q: "Wat zijn de aandachtspunten bij het aansluiten van eenzelfde manifold op verschillende koelinstallaties?",
+    options: [
+      "geen, manifolds zijn universeel toepasbaar",
+      "een manifold voor installaties met minerale olie is sterk afgeraden voor installaties met esterolie",
+      "elk koelmiddel maakt het gebruik van een andere manifold noodzakelijk",
+      "een manifold moet, vooraleer gebruikt te worden met een andere olie, grondig met water en zeep gereinigd worden"
+    ],
+    correct: 1,
+    explanation: "Minerale olie en POE-esterolie mogen niet gemengd worden. Een manifold die met minerale olie is gebruikt, mag niet zonder grondige reiniging op een POE-installatie worden aangesloten."
+  },
+  {
+    q: "Met welk medium moet een druktest op een nieuwe installatie vóór inbedrijfstelling worden uitgevoerd?",
+    options: ["perslucht", "zuurstof", "stikstof", "water"],
+    correct: 2,
+    explanation: "Druktesten gebeuren met droge stikstof (inert gas). Perslucht bevat vocht en zuurstof, water is helemaal verboden, zuurstof is brandgevaarlijk."
+  },
+  {
+    q: "Wat zijn mogelijke symptomen van een koelmiddellek bij een in werking zijnde koelinstallatie?",
+    options: [
+      "een grote oververhitting van het koelmiddel aan het einde van de verdamper en een hoge persgastemperatuur van de compressor",
+      "een kleine oververhitting van het koelmiddel aan het einde van de verdamper en een lage persgastemperatuur van de compressor",
+      "een hoge verdampings- en condensatietemperatuur van het koelmiddel",
+      "de compressor maakt meer lawaai"
+    ],
+    correct: 0,
+    explanation: "Bij tekort aan koelmiddel: lage zuigdruk → grote oververhitting en hogere persgastemperatuur omdat de compressor meer gas comprimeert dat al warmer is."
+  },
+  {
+    q: "Bij het aansluiten van een manifold met soepele verbindingen aan een installatie moet/moeten:",
+    options: [
+      "de soepele verbindingen worden ontlucht tot er gasvormig koelmiddel ontsnapt om indringing van lucht en vocht in de installatie te vermijden",
+      "de manifold worden aangesloten op een vacuümpomp en de soepele verbindingen worden gevacuümeerd om indringing van lucht en vocht in de installatie te vermijden",
+      "de soepele verbindingen worden ontlucht tot er vloeibaar koelmiddel ontsnapt om indringing van lucht en vocht in de installatie te vermijden",
+      "de 3 voorgaande antwoorden zijn mogelijk"
+    ],
+    correct: 1,
+    explanation: "De beste praktijk is de soepele leidingen eerst vacuüm te trekken (of grondig te spoelen met koelmiddel) zodat geen lucht/vocht in de installatie komt."
+  },
+  {
+    q: "Het vullen met koelmiddel van een koelinstallatie moet gebeuren met:",
+    options: [
+      "een manifold met soepele verbindingen, een koelmiddelcilinder en een vulcilinder",
+      "een manifold met soepele verbindingen en een koelmiddelcilinder. Indien er een kijkglas aanwezig is op de installatie, is een koelmiddelweegschaal of vulcilinder niet nodig",
+      "een manifold met soepele verbindingen, een koelmiddelcilinder en een koelmiddelweegschaal",
+      "de 3 voorgaande antwoorden zijn mogelijk"
+    ],
+    correct: 2,
+    explanation: "Correcte vulling gebeurt bij voorkeur op gewicht (weegschaal). Alleen op kijkglas afgaan is onnauwkeurig."
+  },
+  {
+    q: "Hoe kan men een lek opsporen bij het druktesten met droge stikstof?",
+    options: [
+      "met een elektronische lekdetector",
+      "met een op gas werkende lekzoeklamp",
+      "met een water/zeepoplossing",
+      "met de vlam van een gasbrander"
+    ],
+    correct: 2,
+    explanation: "Bij stikstofdruktest gebruikt men een zeepoplossing (bellen) of ultrasone detector. Elektronische lekdetectors voor F-gassen werken niet op stikstof."
+  },
+  {
+    q: "Bij een tekort aan koelmiddel in een werkende koelinstallatie:",
+    options: [
+      "ontstaan bellen aan het kijkglas",
+      "gaat de hoge druk naar omhoog",
+      "neemt het stroomverbruik toe",
+      "stijgt de verdampingstemperatuur voortdurend"
+    ],
+    correct: 0,
+    explanation: "Klassiek symptoom: gasbellen in het kijkglas na de filterdroger wijzen op te weinig vloeistof (ondervulling)."
+  },
+  {
+    q: "Mag men na montage het circuit op druk testen met koelmiddel?",
+    options: [
+      "het is aanbevolen de kring met koelmiddel te testen omdat dan de lekken gemakkelijker kunnen opgespoord worden",
+      "neen, men mag slechts koelmiddel in de installatie brengen na druktesten en nadat deze lekdicht is bevonden",
+      "meestal zal men bij installaties met open compressoren het circuit op druk testen met koelmiddel",
+      "alleen wanneer de druk van het koelmiddel voldoende hoog is, mag men de druktesten met het koelmiddel doen"
+    ],
+    correct: 1,
+    explanation: "Druktesten altijd met inert gas. Koelmiddel mag pas na een geslaagde druk- en lekproef worden ingebracht."
+  },
+  {
+    q: "Welk onderdeel van de open zuigercompressor maakt dat deze compressor niet erg populair is in verband met emissie?",
+    options: [
+      "de aandrijfmotor",
+      "de asafdichting",
+      "de oliepomp",
+      "de riemschijven en hun uitlijning"
+    ],
+    correct: 1,
+    explanation: "De asafdichting (shaft seal) van open compressoren is een klassieke bron van lekkage. Hermetische en semi-hermetische compressoren hebben dit probleem niet."
+  },
+  {
+    q: "Emissie is:",
+    options: [
+      "het recupereren van koelmiddel uit een koelinstallatie",
+      "het uitstoten van koelmiddel in de atmosfeer",
+      "het verwijderen van vocht uit een koelinstallatie",
+      "een fout in de constructie van de koelinstallatie"
+    ],
+    correct: 1,
+    explanation: "Emissie = uitstoot van koelmiddel naar de atmosfeer. Dit is precies wat de regelgeving probeert te minimaliseren."
+  },
+  {
+    q: "Het vacumeren van een installatie heeft voornamelijk als doel:",
+    options: [
+      "een droging van de installatie te verkrijgen",
+      "het controleren op lekkage",
+      "om olie in de leidingen te injecteren om bewegende delen te smeren",
+      "om de juiste doorstroming van het expansieventiel te controleren"
+    ],
+    correct: 0,
+    explanation: "Het primaire doel van vacuümzuigen is droging (verwijderen van vocht) en het verwijderen van niet-condenseerbare gassen."
+  },
+  {
+    q: "Tijdens het solderen zal men een droog inert gas door de leidingen laten stromen om:",
+    options: [
+      "de capillaire werking te bevorderen",
+      "inwendige corrosie/oxidatie tegen te gaan",
+      "componenten als de filter/droger en het expansieventiel niet te beschadigen",
+      "overtollige bramen te verwijderen"
+    ],
+    correct: 1,
+    explanation: "Stikstofstroom voorkomt de vorming van koperoxide (zwarte aanslag) binnenin de leidingen."
+  },
+  {
+    q: "Het vullen in de damp(gas)fase is altijd toegelaten voor:",
+    options: ["R134a", "R404A", "R407C", "alle koelmiddelen"],
+    correct: 0,
+    explanation: "R134a is een zuivere stof (azeotroop). Zeotropische mengsels zoals R404A en R407C moeten in vloeistoffase gevuld worden om de samenstelling te behouden."
+  },
+  {
+    q: "Het vullen in de vloeistoffase is verplicht bij:",
+    options: ["R134a", "R507", "R407C", "alle koelmiddelen"],
+    correct: 2,
+    explanation: "R407C is een zeotropisch mengsel met temperatuurglijding. Vullen in vloeistoffase is verplicht om fractionering te voorkomen."
+  },
+  {
+    q: "Een installatie wordt door een druktest op lekken gecontroleerd op:",
+    options: [
+      "10 bar",
+      "15 bar",
+      "20 bar",
+      "dit is afhankelijk van het koelmiddel en het gebruik van de installatie"
+    ],
+    correct: 3,
+    explanation: "De testdruk hangt af van het koelmiddel (maximale werkdruk) en de normen (NBN-EN 378). Er is geen vaste waarde voor alle installaties."
+  },
+  {
+    q: "Wat gebeurt er in een koelinstallatie als de verdampingstemperatuur daalt?",
+    options: [
+      "het koelvermogen stijgt en het benodigde elektrisch vermogen daalt",
+      "het koelvermogen daalt en het benodigde elektrisch vermogen stijgt",
+      "het koelvermogen daalt en het benodigde elektrisch vermogen daalt",
+      "het koelvermogen stijgt en het benodigde elektrisch vermogen stijgt"
+    ],
+    correct: 1,
+    explanation: "Lagere verdampingstemperatuur → lagere dichtheid van de damp → minder massadebiet → lager koelvermogen. Tegelijk stijgt de compressieverhouding → meer elektrisch vermogen nodig."
+  },
+  {
+    q: "Wat gebeurt er in een koelinstallatie als de condensatietemperatuur stijgt?",
+    options: [
+      "het koelvermogen stijgt en het benodigde elektrisch vermogen daalt",
+      "het koelvermogen daalt en het benodigde elektrisch vermogen stijgt",
+      "het koelvermogen daalt en het benodigde elektrisch vermogen daalt",
+      "het koelvermogen stijgt en het benodigde elektrisch vermogen stijgt"
+    ],
+    correct: 1,
+    explanation: "Hogere condensatietemperatuur → hogere compressieverhouding → meer werk voor de compressor en lager koelvermogen."
+  },
+  {
+    q: "Een compressor in een koelinstallatie en een compressor in een vriesinstallatie leveren allebei hetzelfde koelvermogen van 5 kW. Welke bewering is juist?",
+    options: [
+      "beide compressoren hebben hetzelfde slagvolume en worden aangedreven door dezelfde motor",
+      "beide compressoren hebben hetzelfde slagvolume maar de vriescompressor heeft een grotere motor nodig",
+      "beide compressoren hebben hetzelfde slagvolume maar de koelcompressor heeft een grotere motor nodig",
+      "de vriescompressor heeft een groter slagvolume en heeft een grotere elektrische motor nodig"
+    ],
+    correct: 3,
+    explanation: "Bij lagere verdampingstemperatuur (vriezen) is de dampdichtheid lager. Om hetzelfde koelvermogen te leveren is een groter slagvolume nodig én een sterkere motor (hogere compressieverhouding)."
+  },
+  {
+    q: "De vier hoofdcomponenten van de compressiekoelinstallatie zijn:",
+    options: [
+      "verdamper, condensor, filter/droger en kijkglas",
+      "zuigleiding, persleiding, vloeistofleiding en condensleiding",
+      "verdamper, condensor, vloeistofafscheider en compressor",
+      "verdamper, compressor, condensor en expansieorgaan"
+    ],
+    correct: 3,
+    explanation: "De klassieke vier hoofdonderdelen van de dampcompressiecyclus: verdamper – compressor – condensor – expansieorgaan."
+  },
+  {
+    q: "De zuigleiding is:",
+    options: [
+      "de verbinding tussen expansieventiel en verdamper",
+      "een andere benaming voor persleiding",
+      "de verbinding tussen de compressor en filter/droger",
+      "de verbinding tussen de verdamper en de compressor"
+    ],
+    correct: 3,
+    explanation: "De zuigleiding transporteert de oververhitte damp van de verdamper naar de compressor."
+  },
+  {
+    q: "Wat ziet men bij een goed werkende installatie in het kijkglas na de filterdroger?",
+    options: [
+      "het oliepeil",
+      "men ziet dat dit voor 50% gevuld is met koelmiddel",
+      "gasbellen",
+      "men ziet dat dit voor 100% gevuld is met koelmiddel en niet met gasbellen"
+    ],
+    correct: 3,
+    explanation: "Bij correcte vulling is het kijkglas volledig gevuld met vloeistof (helder, geen bellen)."
+  },
+  {
+    q: "Wat betekent onderkoelen?",
+    options: [
+      "te laag condenseren",
+      "ijsvorming aan de compressor",
+      "na volledige condensatie het koelmiddel verder afkoelen",
+      "na volledige verdamping het koelmiddel verder afkoelen"
+    ],
+    correct: 2,
+    explanation: "Onderkoeling = het vloeibare koelmiddel verder afkoelen onder de condensatietemperatuur. Dit verhoogt de efficiëntie en voorkomt flash-gas."
+  },
+  {
+    q: "Wat betekent oververhitten?",
+    options: [
+      "te hoog verdampen",
+      "te hoog comprimeren",
+      "na volledige verdamping het koelmiddel verder opwarmen",
+      "na volledige condensatie het koelmiddel verder opwarmen"
+    ],
+    correct: 2,
+    explanation: "Oververhitting = de damp na volledige verdamping verder opwarmen. Een zekere oververhitting beschermt de compressor tegen vloeistofslag."
+  }
+];
+
+let currentIndex = 0;
+let score = 0;
+let answered = false;
+let selectedOption = null;
+
+function init() {
+  document.getElementById('totalQ').textContent = questions.length;
+  showQuestion();
+}
+
+function showQuestion() {
+  answered = false;
+  selectedOption = null;
+  const q = questions[currentIndex];
+  document.getElementById('currentQ').textContent = currentIndex + 1;
+  document.getElementById('q-label').textContent = `Vraag ${currentIndex + 1} van ${questions.length}`;
+  document.getElementById('question-text').textContent = q.q;
+  
+  const opts = document.getElementById('options');
+  opts.innerHTML = '';
+  q.options.forEach((opt, i) => {
+    const div = document.createElement('div');
+    div.className = 'option';
+    div.innerHTML = `<span class="option-letter">${String.fromCharCode(65 + i)}.</span><span>${opt}</span>`;
+    div.onclick = () => selectOption(i, div);
+    opts.appendChild(div);
+  });
+
+  document.getElementById('explanation').className = 'explanation';
+  document.getElementById('explanation').innerHTML = '';
+  document.getElementById('check-btn').disabled = true;
+  document.getElementById('check-btn').classList.remove('hidden');
+  document.getElementById('next-btn').classList.add('hidden');
+  
+  const progress = ((currentIndex) / questions.length) * 100;
+  document.getElementById('progress').style.width = progress + '%';
+}
+
+function selectOption(index, el) {
+  if (answered) return;
+  selectedOption = index;
+  document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+  el.classList.add('selected');
+  document.getElementById('check-btn').disabled = false;
+}
+
+function checkAnswer() {
+  if (selectedOption === null || answered) return;
+  answered = true;
+  const q = questions[currentIndex];
+  const options = document.querySelectorAll('.option');
+  
+  options.forEach((o, i) => {
+    o.classList.add('disabled');
+    if (i === q.correct) o.classList.add('correct');
+    if (i === selectedOption && i !== q.correct) o.classList.add('wrong');
+  });
+
+  const exp = document.getElementById('explanation');
+  const isCorrect = selectedOption === q.correct;
+  if (isCorrect) {
+    score++;
+    document.getElementById('score').textContent = score;
+    exp.className = 'explanation show correct-exp';
+    exp.innerHTML = `<h4>✅ Correct!</h4><p>${q.explanation}</p>`;
+  } else {
+    exp.className = 'explanation show wrong-exp';
+    exp.innerHTML = `<h4>❌ Fout. Het juiste antwoord is: <strong>${String.fromCharCode(65 + q.correct)}. ${q.options[q.correct]}</strong></h4><p>${q.explanation}</p>`;
+  }
+
+  document.getElementById('check-btn').classList.add('hidden');
+  document.getElementById('next-btn').classList.remove('hidden');
+  
+  const progress = ((currentIndex + 1) / questions.length) * 100;
+  document.getElementById('progress').style.width = progress + '%';
+}
+
+function nextQuestion() {
+  currentIndex++;
+  if (currentIndex >= questions.length) {
+    showResults();
+  } else {
+    showQuestion();
+  }
+}
+
+function showResults() {
+  document.getElementById('quiz-area').classList.add('hidden');
+  document.getElementById('result-area').classList.remove('hidden');
+  document.getElementById('final-score').textContent = `${score} / ${questions.length}`;
+  const pct = Math.round((score / questions.length) * 100);
+  let msg = '';
+  if (pct >= 90) msg = 'Uitstekend! Je bent klaar voor het examen.';
+  else if (pct >= 70) msg = 'Goed gedaan! Nog even de fouten herhalen.';
+  else if (pct >= 50) msg = 'Redelijk, maar er is nog werk aan de winkel.';
+  else msg = 'Nog veel oefenen nodig. Ga de uitleg goed door.';
+  document.getElementById('score-message').textContent = msg + ` (${pct}%)`;
+}
+
+function restartQuiz() {
+  currentIndex = 0;
+  score = 0;
+  document.getElementById('score').textContent = '0';
+  document.getElementById('quiz-area').classList.remove('hidden');
+  document.getElementById('result-area').classList.add('hidden');
+  showQuestion();
+}
+
+document.getElementById('check-btn').addEventListener('click', checkAnswer);
+document.getElementById('next-btn').addEventListener('click', nextQuestion);
+
+init();
+</script>
+</body>
+</html>
