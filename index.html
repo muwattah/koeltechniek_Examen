@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Koeltechniek Cat. I – 362 Examenvragen Quiz</title>
+<title>Koeltechniek Cat. I – Examenvragen Quiz</title>
 <style>
 :root{--primary:#0d6efd;--success:#198754;--danger:#dc3545}
 *{box-sizing:border-box;margin:0;padding:0}
@@ -48,80 +48,124 @@ button{border:none;border-radius:8px;padding:.6rem 1.2rem;font-size:.95rem;font-
 .controls label{font-size:.9rem}
 .controls input{padding:.4rem .6rem;border-radius:6px;border:1px solid #ced4da;font-size:.9rem}
 footer{text-align:center;padding:1.2rem;color:#6c757d;font-size:.82rem}
+.start-screen{text-align:center;padding:2rem 1rem}
+.start-screen h2{margin-bottom:1rem;color:#0d47a1}
+.choice-cards{display:flex;gap:1.2rem;flex-wrap:wrap;justify-content:center;margin-top:1.5rem}
+.choice-card{background:#fff;border:2px solid #dee2e6;border-radius:14px;padding:1.5rem;width:280px;cursor:pointer;transition:all .2s;text-align:center}
+.choice-card:hover{border-color:var(--primary);box-shadow:0 6px 20px rgba(13,110,253,.15);transform:translateY(-2px)}
+.choice-card h3{color:#0d47a1;margin-bottom:.5rem}
+.choice-card p{font-size:.9rem;color:#6c757d}
+.choice-card .count{font-size:1.8rem;font-weight:700;color:var(--primary);margin:.6rem 0}
 </style>
 </head>
 <body>
 <header>
-  <h1>❄️ Koeltechniek Cat. I – 362 Examenvragen</h1>
+  <h1>❄️ Koeltechniek Cat. I – Examenvragen</h1>
   <p>Eerste examen – Departement Leefmilieu, Natuur en Energie (2015)</p>
 </header>
 <div class="container">
-  <div class="controls">
-    <label>Start vanaf vraag: <input type="number" id="startFrom" min="1" max="362" value="1" style="width:70px"></label>
-    <button class="btn-outline" id="jumpBtn">Ga</button>
-    <label style="margin-left:auto"><input type="checkbox" id="shuffleOpt"> Opties schudden</label>
-  </div>
-  <div class="stats">
-    <div class="stat-box"><div class="num" id="currentQ">1</div><div class="label">Vraag</div></div>
-    <div class="stat-box"><div class="num" id="score">0</div><div class="label">Correct</div></div>
-    <div class="stat-box"><div class="num" id="totalQ">362</div><div class="label">Totaal</div></div>
-    <div class="stat-box"><div class="num" id="pct">0%</div><div class="label">Score</div></div>
-  </div>
-  <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
-  <div id="quiz-area">
-    <div class="card">
-      <span class="q-num" id="q-label">Vraag 1 van 362</span>
-      <div class="question" id="question-text">Laden...</div>
-      <div class="options" id="options"></div>
-      <div class="explanation" id="explanation"></div>
-      <div class="btn-row">
-        <button class="btn-primary" id="check-btn" disabled>Controleer antwoord</button>
-        <button class="btn-secondary hidden" id="next-btn">Volgende →</button>
-        <button class="btn-outline" id="skip-btn">Overslaan</button>
+  <div id="start-screen" class="card start-screen">
+    <h2>Kies een onderdeel</h2>
+    <p>Selecteer welke vragen je wilt oefenen:</p>
+    <div class="choice-cards">
+      <div class="choice-card" onclick="startQuiz('theorie')">
+        <h3>Theoretisch onderdeel</h3>
+        <div class="count">362</div>
+        <p>Koeltechniek – compressoren, expansie, vulling, lekken, rendement, …</p>
+      </div>
+      <div class="choice-card" onclick="startQuiz('wetgeving')">
+        <h3>Wetgeving & terminologie</h3>
+        <div class="count">115</div>
+        <p>F-gassen, ozon, lekcontroles, certificatie, GWP, NBN-EN 378, …</p>
       </div>
     </div>
   </div>
-  <div id="result-area" class="card final-score hidden">
-    <h2>Quiz afgerond!</h2>
-    <div class="big" id="final-score">0 / 0</div>
-    <p id="score-message" style="margin:1rem 0"></p>
-    <button class="btn-primary" onclick="restartQuiz()">Opnieuw starten</button>
+  <div id="quiz-wrapper" class="hidden">
+    <div class="controls">
+      <button class="btn-outline" id="backBtn">← Terug naar keuze</button>
+      <label>Start vanaf vraag: <input type="number" id="startFrom" min="1" value="1" style="width:70px"></label>
+      <button class="btn-outline" id="jumpBtn">Ga</button>
+      <label style="margin-left:auto"><input type="checkbox" id="shuffleOpt"> Opties schudden</label>
+    </div>
+    <div class="stats">
+      <div class="stat-box"><div class="num" id="currentQ">1</div><div class="label">Vraag</div></div>
+      <div class="stat-box"><div class="num" id="score">0</div><div class="label">Correct</div></div>
+      <div class="stat-box"><div class="num" id="totalQ">0</div><div class="label">Totaal</div></div>
+      <div class="stat-box"><div class="num" id="pct">0%</div><div class="label">Score</div></div>
+    </div>
+    <div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
+    <div id="quiz-area">
+      <div class="card">
+        <span class="q-num" id="q-label">Vraag 1</span>
+        <div class="question" id="question-text">Laden...</div>
+        <div class="options" id="options"></div>
+        <div class="explanation" id="explanation"></div>
+        <div class="btn-row">
+          <button class="btn-primary" id="check-btn" disabled>Controleer antwoord</button>
+          <button class="btn-secondary hidden" id="next-btn">Volgende →</button>
+          <button class="btn-outline" id="skip-btn">Overslaan</button>
+        </div>
+      </div>
+    </div>
+    <div id="result-area" class="card final-score hidden">
+      <h2>Quiz afgerond!</h2>
+      <div class="big" id="final-score">0 / 0</div>
+      <p id="score-message" style="margin:1rem 0"></p>
+      <button class="btn-primary" onclick="restartQuiz()">Opnieuw starten</button>
+      <button class="btn-outline" onclick="backToStart()" style="margin-left:.5rem">Ander onderdeel</button>
+    </div>
   </div>
 </div>
-<footer>Bron: Examenvragen theoretisch onderdeel koeltechniek – Departement Leefmilieu, Natuur en Energie<br>Correcte antwoorden = vetgedrukte opties uit het originele examen. Uitleg = extra studiehulp.<br><br>
-  <strong>Gemaakt door Abderrahmane El Abbadi </strong>  </footer>
+<footer>Bron: Examenvragen koeltechniek eerste examen (2015)<br>Correcte antwoorden = vetgedrukte opties. Uitleg = extra studiehulp.</footer>
 <script>
-let questions=[],currentIndex=0,score=0,answered=false,selectedOption=null;
+let questions=[], currentIndex=0, score=0, answered=false, selectedOption=null, currentSet='theorie';
+const FILES = {
+  theorie: 'koeltechniek_deel1_362_volledig.json',
+  wetgeving: 'koeltechniek_deel2_wetgeving_115.json'
+};
+async function startQuiz(set){
+  currentSet = set;
+  document.getElementById('start-screen').classList.add('hidden');
+  document.getElementById('quiz-wrapper').classList.remove('hidden');
+  currentIndex=0; score=0; answered=false;
+  document.getElementById('score').textContent='0';
+  document.getElementById('result-area').classList.add('hidden');
+  document.getElementById('quiz-area').classList.remove('hidden');
+  await loadQuestions();
+}
+function backToStart(){
+  document.getElementById('quiz-wrapper').classList.add('hidden');
+  document.getElementById('start-screen').classList.remove('hidden');
+}
 async function loadQuestions(){
   try{
-    const res=await fetch('koeltechniek_deel1_362_volledig.json?v='+Date.now());
-    if(!res.ok)throw new Error('JSON niet gevonden');
-    const data=await res.json();
-    questions=data.questions;
-    console.log('Geladen vragen:',questions.length);
-    if(questions.length<300)alert('Let op: er zijn maar '+questions.length+' vragen geladen.');
-    document.getElementById('totalQ').textContent=questions.length;
+    const res = await fetch(FILES[currentSet] + '?v=' + Date.now());
+    if(!res.ok) throw new Error('JSON niet gevonden');
+    const data = await res.json();
+    questions = data.questions;
+    document.getElementById('totalQ').textContent = questions.length;
+    document.getElementById('startFrom').max = questions.length;
     showQuestion();
   }catch(e){
-    document.getElementById('question-text').textContent='Kon de vragen niet laden. Controleer of koeltechniek_deel1_362_volledig.json correct is geüpload.';
+    document.getElementById('question-text').textContent = 'Kon de vragen niet laden. Controleer of de JSON-bestanden correct geüpload zijn.';
     console.error(e);
   }
 }
 function showQuestion(){
-  if(currentIndex>=questions.length){showResults();return;}
-  answered=false;selectedOption=null;
-  const q=questions[currentIndex];
-  document.getElementById('currentQ').textContent=q.question_number;
-  document.getElementById('q-label').textContent=`Vraag ${q.question_number} van ${questions.length}`;
-  document.getElementById('question-text').textContent=q.question;
-  const optsDiv=document.getElementById('options');optsDiv.innerHTML='';
-  let keys=Object.keys(q.options);
-  if(document.getElementById('shuffleOpt').checked)keys=keys.sort(()=>Math.random()-0.5);
+  if(currentIndex >= questions.length){ showResults(); return; }
+  answered=false; selectedOption=null;
+  const q = questions[currentIndex];
+  document.getElementById('currentQ').textContent = q.question_number;
+  document.getElementById('q-label').textContent = `Vraag ${q.question_number} van ${questions.length}`;
+  document.getElementById('question-text').textContent = q.question;
+  const optsDiv = document.getElementById('options'); optsDiv.innerHTML='';
+  let keys = Object.keys(q.options);
+  if(document.getElementById('shuffleOpt').checked) keys = keys.sort(()=>Math.random()-0.5);
   keys.forEach(letter=>{
-    const div=document.createElement('div');
-    div.className='option';div.dataset.letter=letter;
-    div.innerHTML=`<span class="option-letter">${letter}.</span><span>${q.options[letter]}</span>`;
-    div.onclick=()=>selectOption(letter,div);
+    const div = document.createElement('div');
+    div.className='option'; div.dataset.letter=letter;
+    div.innerHTML = `<span class="option-letter">${letter}.</span><span>${q.options[letter]}</span>`;
+    div.onclick = ()=>selectOption(letter,div);
     optsDiv.appendChild(div);
   });
   document.getElementById('explanation').className='explanation';
@@ -129,31 +173,32 @@ function showQuestion(){
   document.getElementById('check-btn').disabled=true;
   document.getElementById('check-btn').classList.remove('hidden');
   document.getElementById('next-btn').classList.add('hidden');
-  document.getElementById('progress').style.width=(currentIndex/questions.length*100)+'%';
+  document.getElementById('progress').style.width = (currentIndex/questions.length*100)+'%';
   updatePct();
 }
 function selectOption(letter,el){
-  if(answered)return;
+  if(answered) return;
   selectedOption=letter;
   document.querySelectorAll('.option').forEach(o=>o.classList.remove('selected'));
   el.classList.add('selected');
   document.getElementById('check-btn').disabled=false;
 }
 function checkAnswer(){
-  if(!selectedOption||answered)return;
+  if(!selectedOption||answered) return;
   answered=true;
-  const q=questions[currentIndex];
+  const q = questions[currentIndex];
   document.querySelectorAll('.option').forEach(o=>{
     o.classList.add('disabled');
-    if(o.dataset.letter===q.correct_answer)o.classList.add('correct');
-    if(o.dataset.letter===selectedOption&&selectedOption!==q.correct_answer)o.classList.add('wrong');
+    if(o.dataset.letter===q.correct_answer) o.classList.add('correct');
+    if(o.dataset.letter===selectedOption && selectedOption!==q.correct_answer) o.classList.add('wrong');
   });
-  const exp=document.getElementById('explanation');
-  const isCorrect=selectedOption===q.correct_answer;
-  const correctText=q.options[q.correct_answer]||'';
-  const why=q.explanation?`<p style="margin-top:0.7rem;padding-top:0.6rem;border-top:1px solid rgba(0,0,0,0.1)"><strong>Uitleg:</strong> ${q.explanation}</p>`:'';
+  const exp = document.getElementById('explanation');
+  const isCorrect = selectedOption===q.correct_answer;
+  const correctText = q.options[q.correct_answer]||'';
+  const whyText = q.post_answer_explanation || q.explanation || '';
+  const why = whyText ? `<p style="margin-top:0.7rem;padding-top:0.6rem;border-top:1px solid rgba(0,0,0,0.1)"><strong>Uitleg:</strong> ${whyText}</p>` : '';
   if(isCorrect){
-    score++;document.getElementById('score').textContent=score;
+    score++; document.getElementById('score').textContent=score;
     exp.className='explanation show correct-exp';
     exp.innerHTML=`<h4>✅ Correct!</h4><p><strong>Antwoord ${q.correct_answer}:</strong> ${correctText}</p>${why}`;
   }else{
@@ -165,8 +210,8 @@ function checkAnswer(){
   updatePct();
   document.getElementById('progress').style.width=((currentIndex+1)/questions.length*100)+'%';
 }
-function nextQuestion(){currentIndex++;if(currentIndex>=questions.length)showResults();else showQuestion();}
-function skipQuestion(){currentIndex++;if(currentIndex>=questions.length)showResults();else showQuestion();}
+function nextQuestion(){ currentIndex++; if(currentIndex>=questions.length) showResults(); else showQuestion(); }
+function skipQuestion(){ currentIndex++; if(currentIndex>=questions.length) showResults(); else showQuestion(); }
 function showResults(){
   document.getElementById('quiz-area').classList.add('hidden');
   document.getElementById('result-area').classList.remove('hidden');
@@ -176,7 +221,7 @@ function showResults(){
   document.getElementById('score-message').textContent=msg+` (${pct}%)`;
 }
 function restartQuiz(){
-  currentIndex=0;score=0;document.getElementById('score').textContent='0';
+  currentIndex=0; score=0; document.getElementById('score').textContent='0';
   document.getElementById('quiz-area').classList.remove('hidden');
   document.getElementById('result-area').classList.add('hidden');
   showQuestion();
@@ -189,11 +234,11 @@ function updatePct(){
 document.getElementById('check-btn').addEventListener('click',checkAnswer);
 document.getElementById('next-btn').addEventListener('click',nextQuestion);
 document.getElementById('skip-btn').addEventListener('click',skipQuestion);
+document.getElementById('backBtn').addEventListener('click',backToStart);
 document.getElementById('jumpBtn').addEventListener('click',()=>{
   const n=parseInt(document.getElementById('startFrom').value,10);
-  if(n>=1&&n<=questions.length){currentIndex=n-1;score=0;document.getElementById('score').textContent='0';showQuestion();}
+  if(n>=1&&n<=questions.length){ currentIndex=n-1; score=0; document.getElementById('score').textContent='0'; showQuestion(); }
 });
-loadQuestions();
 </script>
 </body>
 </html>
