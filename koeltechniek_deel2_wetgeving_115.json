@@ -1,0 +1,2428 @@
+{
+  "title": "Koeltechniek - eerste examen - deel 2: wetgeving en Nederlandstalige terminologie",
+  "version": "1.0-checked",
+  "source_date": "13/02/2015",
+  "question_count": 115,
+  "notes": [
+    "Alle 115 correcte antwoordletters zijn bepaald via de vet+cursief gemarkeerde antwoorden in de bron-PDF.",
+    "Vraagtekst en antwoordopties zijn uit de tabelstructuur van de bron-PDF overgenomen.",
+    "De extra uitleg is studieuitleg en staat niet als officiële uitleg in de bron-PDF.",
+    "Wetgevingsantwoorden volgen bewust de examenbron uit 2015; actuele regelgeving kan sindsdien gewijzigd zijn.",
+    "Toon post_answer_explanation na elk antwoord, ongeacht juist of fout."
+  ],
+  "questions": [
+    {
+      "question_number": 1,
+      "question": "Welke koelmiddelen tasten de ozonlaag aan?",
+      "options": {
+        "A": "(H)CFK's",
+        "B": "HFK's",
+        "C": "HFK-mengsels",
+        "D": "alle koelmiddelen"
+      },
+      "correct_answer": "A",
+      "source_page": 37,
+      "explanation": "CFK's en HCFK's bevatten chloor dat in de stratosfeer kan bijdragen aan afbraak van ozon. Daarom duidt de examensleutel (H)CFK's aan als ozonlaagafbrekende koudemiddelen.",
+      "post_answer_explanation": "CFK's en HCFK's bevatten chloor dat in de stratosfeer kan bijdragen aan afbraak van ozon. Daarom duidt de examensleutel (H)CFK's aan als ozonlaagafbrekende koudemiddelen.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 2,
+      "question": "Hoe berekent men het ton CO-equivalent van een 2 gefluoreerd broeikasgas?",
+      "options": {
+        "A": "door de GWP-waarde van het koelmiddel te delen door het gewicht van het koelmiddel, uitgedrukt in ton",
+        "B": "door het gewicht van het koelmiddel, uitgedrukt in kg, te vermenigvuldigen met de GWP-waarde van het koelmiddel",
+        "C": "door de GWP-waarde van het koelmiddel te delen door het gewicht van het koelmiddel, uitgedrukt in kg",
+        "D": "door het gewicht van het koelmiddel, uitgedrukt in ton, te vermenigvuldigen met de GWP-waarde van het koelmiddel"
+      },
+      "correct_answer": "D",
+      "source_page": 37,
+      "explanation": "De officiële examensleutel geeft “door het gewicht van het koelmiddel, uitgedrukt in ton, te vermenigvuldigen met de GWP-waarde van het koelmiddel” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “door het gewicht van het koelmiddel, uitgedrukt in ton, te vermenigvuldigen met de GWP-waarde van het koelmiddel” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 3,
+      "question": "Welk van de volgende koelmiddelen is het minst schadelijk voor het broeikaseffect?",
+      "options": {
+        "A": "HCFK's",
+        "B": "HFK's",
+        "C": "NH (R717) 3",
+        "D": "CFK's"
+      },
+      "correct_answer": "C",
+      "source_page": 37,
+      "explanation": "Ammoniak (R717) heeft een zeer lage directe GWP in vergelijking met klassieke HFK's en CFK's. Daarom wordt het in deze bron als het minst schadelijke antwoord voor het broeikaseffect gekozen.",
+      "post_answer_explanation": "Ammoniak (R717) heeft een zeer lage directe GWP in vergelijking met klassieke HFK's en CFK's. Daarom wordt het in deze bron als het minst schadelijke antwoord voor het broeikaseffect gekozen.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 4,
+      "question": "Ozonlaagafbrekende stoffen zijn:",
+      "options": {
+        "A": "ammoniak",
+        "B": "(H)CFK’s",
+        "C": "HFK’s",
+        "D": "CO 2"
+      },
+      "correct_answer": "B",
+      "source_page": 37,
+      "explanation": "CFK's en HCFK's bevatten chloor dat in de stratosfeer kan bijdragen aan afbraak van ozon. Daarom duidt de examensleutel (H)CFK's aan als ozonlaagafbrekende koudemiddelen.",
+      "post_answer_explanation": "CFK's en HCFK's bevatten chloor dat in de stratosfeer kan bijdragen aan afbraak van ozon. Daarom duidt de examensleutel (H)CFK's aan als ozonlaagafbrekende koudemiddelen.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 5,
+      "question": "Gefluoreerde broeikasgassen zijn:",
+      "options": {
+        "A": "ammoniak",
+        "B": "glycol",
+        "C": "HFK’s",
+        "D": "CO 2"
+      },
+      "correct_answer": "C",
+      "source_page": 37,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 6,
+      "question": "Moet de koeltechnicus een lege cilinder bij zich hebben voor het nodige afgetapte koelmiddel of mag hij daarvoor in geval van nood een gerecupereerd vloeistofvaatje gebruiken?",
+      "options": {
+        "A": "als hij niet over een geschikt vat beschikt, mag hij het koelmiddel lozen in de atmosfeer, zonder hinder te veroorzaken voor de mensen",
+        "B": "hij mag niet eender welk vaatje gebruiken, maar moet een oude lege koelmiddelcilinder gebruiken",
+        "C": "hij moet een lege cilinder bij zich hebben met een geldige keuring en dubbele afsluiters, speciaal geschikt voor recuperatie en afvalophaling van koelgassen",
+        "D": "hij mag daarvoor een vaatje gebruiken dat tegen de optredende druk bestand is en dat hem geschikt lijkt; het gaat toch maar over afval"
+      },
+      "correct_answer": "C",
+      "source_page": 37,
+      "explanation": "Voor recuperatie moet een geschikt, gekeurd recipiënt worden gebruikt dat voor terugwinning van koudemiddel bedoeld is. Een willekeurig vat is niet veilig of conform de werkwijze uit de bron.",
+      "post_answer_explanation": "Voor recuperatie moet een geschikt, gekeurd recipiënt worden gebruikt dat voor terugwinning van koudemiddel bedoeld is. Een willekeurig vat is niet veilig of conform de werkwijze uit de bron.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 7,
+      "question": "Aan welke eis moet de vacuümpomp voldoen?",
+      "options": {
+        "A": "zij moet minstens 250 m³/h kunnen afzuigen",
+        "B": "zij moet een tweetraps vacuümpomp zijn",
+        "C": "alleen drietraps vacuümpompen zijn toegestaan",
+        "D": "het volstaat dat zij tot 10 torr kan afzuigen"
+      },
+      "correct_answer": "B",
+      "source_page": 38,
+      "explanation": "Vacumeren verwijdert lucht en helpt vocht uit het systeem te verdampen en af te voeren. Het is een voorbereidende stap vóór het definitief vullen met koudemiddel.",
+      "post_answer_explanation": "Vacumeren verwijdert lucht en helpt vocht uit het systeem te verdampen en af te voeren. Het is een voorbereidende stap vóór het definitief vullen met koudemiddel.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 8,
+      "question": "Bij welke druk moet een koelinstallatie volledig worden getest?",
+      "options": {
+        "A": "bij de maximale werkdruk, rekening houdend met alle factoren die kunnen optreden",
+        "B": "bij een druk aan de hoge drukzijde van 16 bar en aan de lage drukzijde van 6 bar",
+        "C": "bij 1,5 keer de maximale werkdruk, rekening houdend met alle factoren die kunnen optreden",
+        "D": "bij 1,1 keer de maximale werkdruk, rekening houdend met alle factoren die kunnen optreden"
+      },
+      "correct_answer": "D",
+      "source_page": 38,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “bij 1,1 keer de maximale werkdruk, rekening houdend met alle factoren die kunnen optreden”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “bij 1,1 keer de maximale werkdruk, rekening houdend met alle factoren die kunnen optreden”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 9,
+      "question": "Vanaf welke druk in de installatie mag het overdruk ontlastingsventiel openen en het koelmiddel in de atmosfeer afblazen?",
+      "options": {
+        "A": "bij een druk van 30% hoger dan de maximale werkdruk",
+        "B": "bij een druk hoger dan de maximale werkdruk",
+        "C": "bij een overdruk van minstens 15% hoger dan de maximale werkdruk",
+        "D": "het ventiel mag in geen enkel geval het koelmiddel in de atmosfeer afblazen"
+      },
+      "correct_answer": "B",
+      "source_page": 38,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “bij een druk hoger dan de maximale werkdruk”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “bij een druk hoger dan de maximale werkdruk”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 10,
+      "question": "Moet er een gebruiksaanwijzing aanwezig zijn bij elke koelinstallatie?",
+      "options": {
+        "A": "er zijn alleen gebruiksaanwijzingen nodig van zodra de installatie de capaciteit van 100 kW overschrijdt",
+        "B": "er zijn geen bepalingen omtrent gebruiksaanwijzing- en in de norm",
+        "C": "het is de compressorfabrikant die voor een gebruiksaanwijzing moet zorgen",
+        "D": "NBN-EN 378 legt op dat elke koelinstallatie die aan deze norm moet voldoen, voorzien moet zijn van een gebruiksaanwijzing"
+      },
+      "correct_answer": "D",
+      "source_page": 38,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “NBN-EN 378 legt op dat elke koelinstallatie die aan deze norm moet voldoen, voorzien moet zijn van een gebruiksaanwijzing”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “NBN-EN 378 legt op dat elke koelinstallatie die aan deze norm moet voldoen, voorzien moet zijn van een gebruiksaanwijzing”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 11,
+      "question": "Als het mogelijk is te kiezen tussen een hermetische en een semi-hermetische compressor, welke keuze maakt men dan bij voorkeur?",
+      "options": {
+        "A": "een semi-hermetische compressor is altijd kwalitatief superieur tegenover een hermetische compressor",
+        "B": "de norm NBN-EN 378 beveelt, overal waar het technisch mogelijk is, een hermetische compressor aan",
+        "C": "de norm NBN-EN 378 vermeldt niets over de keuze van een compressor; men is volledig vrij",
+        "D": "hermetische compressoren zijn slechts in volledig hermetische installaties toegestaan"
+      },
+      "correct_answer": "B",
+      "source_page": 38,
+      "explanation": "Volgens de officiële examensleutel is “de norm NBN-EN 378 beveelt, overal waar het technisch mogelijk is, een hermetische compressor aan” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “de norm NBN-EN 378 beveelt, overal waar het technisch mogelijk is, een hermetische compressor aan” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 12,
+      "question": "Ten opzichte waarvan wordt de mate waarin koelmiddelen bijdragen tot het broeikaseffect vergeleken?",
+      "options": {
+        "A": "met het koelmiddel R11",
+        "B": "met een effectieve opwarming van 0,5°C per jaar",
+        "C": "met het broeikaseffect dat er bestond in het jaar 1900",
+        "D": "met koolstofdioxide in een tijdshorizon van 100 jaar"
+      },
+      "correct_answer": "D",
+      "source_page": 38,
+      "explanation": "De officiële examensleutel geeft “met koolstofdioxide in een tijdshorizon van 100 jaar” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “met koolstofdioxide in een tijdshorizon van 100 jaar” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 13,
+      "question": "Op welke druk moeten veiligheidsschakelaars / pressostaten aan de hoge drukzijde volgens de norm NBN-EN 378 worden ingesteld?",
+      "options": {
+        "A": "op een druk hoger dan 25 bar",
+        "B": "de druk mag niet hoger zijn dan 90% van de maximaal toelaatbare druk",
+        "C": "de druk moet overeenkomstig de verdampingstemperatuur van het koelmiddel zijn",
+        "D": "op een druk kleiner dan 25 bar"
+      },
+      "correct_answer": "B",
+      "source_page": 38,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de druk mag niet hoger zijn dan 90% van de maximaal toelaatbare druk”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de druk mag niet hoger zijn dan 90% van de maximaal toelaatbare druk”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 14,
+      "question": "Storingen en lekken aan een koelmiddelcircuit dat ozonlaagafbrekende stoffen of gefluoreerde broeikasgassen bevat, moeten opgelost worden door:",
+      "options": {
+        "A": "iedereen",
+        "B": "iemand die iets van koeltechniek afweet",
+        "C": "de eigenaar",
+        "D": "een bevoegd koeltechnicus"
+      },
+      "correct_answer": "D",
+      "source_page": 38,
+      "explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "post_answer_explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 15,
+      "question": "Op welke wijze kan men formeel vaststellen wanneer een koelinstallatie voor de laatste maal is gecontroleerd op lekdichtheid?",
+      "options": {
+        "A": "door het logboek te raadplegen",
+        "B": "door de facturen en werkbons van het onderhoud en de herstellingen na te zien",
+        "C": "door na te vragen bij de uitbater van de installatie",
+        "D": "door na te vragen bij de persoon die verantwoordelijk is voor het onderhoud"
+      },
+      "correct_answer": "A",
+      "source_page": 39,
+      "explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "post_answer_explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 16,
+      "question": "Moet men voor koelinstallaties met een nominale koelmiddelinhoud van 3 kg of meer de bijgevulde koelmiddelhoeveelheden ten gevolge van koelmiddelverlies dat optreedt tijdens herstellingen aan het koelmiddelcircuit, ook in het logboek noteren?",
+      "options": {
+        "A": "ja, alle bijvullingen moeten worden genoteerd in het logboek",
+        "B": "alleen wat door lekken gedurende het normaal gebruik van de koelinstallatie verloren is gegaan, moet genoteerd worden",
+        "C": "het moet niet genoteerd worden, maar het moet worden gemeld aan de bevoegde diensten",
+        "D": "de bijvulling moet genoteerd worden in een speciaal logboek van de firma die de herstelling heeft uitgevoerd"
+      },
+      "correct_answer": "A",
+      "source_page": 39,
+      "explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "post_answer_explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 17,
+      "question": "Welke stoffen worden geviseerd door het Protocol van Montreal?",
+      "options": {
+        "A": "broeikasgassen",
+        "B": "vluchtige organische stoffen",
+        "C": "ozonlaagafbrekende stoffen",
+        "D": "polyaromatische koolwaterstoffen"
+      },
+      "correct_answer": "C",
+      "source_page": 39,
+      "explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "post_answer_explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 18,
+      "question": "Omtrent welke eigenschap van koelmiddelen handelt het Protocol van Montreal?",
+      "options": {
+        "A": "het veroorzaken van het broeikaseffect",
+        "B": "het opwarmen van de aarde",
+        "C": "het aantasten van de ozonlaag",
+        "D": "het afremmen van de zonnestraling"
+      },
+      "correct_answer": "C",
+      "source_page": 39,
+      "explanation": "Volgens de officiële examensleutel is “het aantasten van de ozonlaag” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “het aantasten van de ozonlaag” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 19,
+      "question": "Welke stoffen worden geviseerd door het Protocol van Kyoto?",
+      "options": {
+        "A": "ozonlaagafbrekende stoffen",
+        "B": "broeikasgassen",
+        "C": "vluchtige organische stoffen",
+        "D": "polyaromatische koolwaterstoffen"
+      },
+      "correct_answer": "B",
+      "source_page": 39,
+      "explanation": "Volgens de officiële examensleutel is “broeikasgassen” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “broeikasgassen” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 20,
+      "question": "Omtrent welke eigenschap van koelmiddelen handelt het Protocol van Kyoto?",
+      "options": {
+        "A": "het aantasten van de ozonlaag",
+        "B": "hun negatieve bijdrage aan de klimaatverandering",
+        "C": "het terugdringen van de fotochemische luchtverontreiniging",
+        "D": "het verbieden van het gebruik van milieugevaarlijke stoffen"
+      },
+      "correct_answer": "B",
+      "source_page": 39,
+      "explanation": "Volgens de officiële examensleutel is “hun negatieve bijdrage aan de klimaatverandering” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “hun negatieve bijdrage aan de klimaatverandering” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 21,
+      "question": "Binnen hoeveel tijd na een definitieve buitenbedrijfstelling moet het koelmiddel van een installatie worden afgetapt?",
+      "options": {
+        "A": "binnen de 6 maanden",
+        "B": "binnen de maand",
+        "C": "van zodra er een speciale machtiging is verleend",
+        "D": "niet, het wordt mee afgehaald door een gespecialiseerde schroothandel"
+      },
+      "correct_answer": "B",
+      "source_page": 39,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “binnen de maand”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “binnen de maand”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 22,
+      "question": "Wie mag koelmiddel vernietigen?",
+      "options": {
+        "A": "iedereen die daarvoor de nodige apparatuur bezit",
+        "B": "alle gecertificeerde koeltechnici",
+        "C": "alleen daartoe erkende firma's",
+        "D": "uitsluitend de fabrikanten van koelmiddelen"
+      },
+      "correct_answer": "C",
+      "source_page": 39,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “alleen daartoe erkende firma's”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “alleen daartoe erkende firma's”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 23,
+      "question": "Hoe dikwijls moet een installatie met gefluoreerde broeikasgassen met een koelmiddelinhoud van 20 ton CO-equivalent en zonder 2 lekkagedetectiesysteem op lekken worden gecontroleerd?",
+      "options": {
+        "A": "dagelijks",
+        "B": "om de 3 maanden",
+        "C": "om de 12 maanden",
+        "D": "elke maand"
+      },
+      "correct_answer": "C",
+      "source_page": 39,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 24,
+      "question": "Als de installatie hersteld is na een lekkage, binnen welke tijd moet een nieuwe controle op lekdichtheid worden uitgevoerd?",
+      "options": {
+        "A": "binnen de 2 weken maar niet op dezelfde dag van de herstelling",
+        "B": "binnen de maand maar niet op dezelfde dag van de herstelling",
+        "C": "binnen de maand waarbij de controle op dezelfde dag van de herstelling mag uitgevoerd worden",
+        "D": "binnen de 3 maanden maar niet op dezelfde dag van de herstelling"
+      },
+      "correct_answer": "B",
+      "source_page": 40,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “binnen de maand maar niet op dezelfde dag van de herstelling”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “binnen de maand maar niet op dezelfde dag van de herstelling”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 25,
+      "question": "Hoe vaak moet een installatie met ozonlaagafbrekende stoffen met een koelmiddelinhoud van 3 tot 30 kg gecontroleerd worden op lekdichtheid?",
+      "options": {
+        "A": "om de 24 maanden",
+        "B": "om de 12 maanden",
+        "C": "om de 6 maanden",
+        "D": "om de 18 maanden"
+      },
+      "correct_answer": "B",
+      "source_page": 40,
+      "explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "post_answer_explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 26,
+      "question": "Wat is de verplichte frequentie van lekdichtheidscontrole voor installaties met een koelmiddelinhoud van 30 tot 300 kg en die ozonlaagafbrekende stoffen bevatten?",
+      "options": {
+        "A": "om de 12 maanden",
+        "B": "om de 2 jaar",
+        "C": "om de 6 maanden",
+        "D": "2 maal per jaar"
+      },
+      "correct_answer": "C",
+      "source_page": 40,
+      "explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "post_answer_explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 27,
+      "question": "Wie mag een energetische keuring uitvoeren van een airconditioningsysteem met een nominaal koelvermogen van meer dan 12 kW?",
+      "options": {
+        "A": "een gecertificeerd koeltechnicus",
+        "B": "een erkende airco- energiedeskundige",
+        "C": "iemand die kan aantonen dat hij een koeltechnische opleiding waarbij energetische aspecten aan bod kwamen, gevolgd heeft",
+        "D": "een bevoegd koeltechnicus"
+      },
+      "correct_answer": "B",
+      "source_page": 40,
+      "explanation": "Airconditioning omvat het behandelen van luchtcondities, waaronder temperatuur en afhankelijk van het systeem ook vocht en luchtkwaliteit. De bron gebruikt de term binnen de F-gas/koeltechnische context.",
+      "post_answer_explanation": "Airconditioning omvat het behandelen van luchtcondities, waaronder temperatuur en afhankelijk van het systeem ook vocht en luchtkwaliteit. De bron gebruikt de term binnen de F-gas/koeltechnische context.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 28,
+      "question": "Wat is de verplichte frequentie van controle op lekdichtheid bij een HCFK- koelinstallatie die 300 kg of meer koelmiddel bevat?",
+      "options": {
+        "A": "elke 3 maand",
+        "B": "elke 6 maand",
+        "C": "elke 12 maanden",
+        "D": "2 maal per jaar"
+      },
+      "correct_answer": "A",
+      "source_page": 40,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “elke 3 maand”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “elke 3 maand”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 29,
+      "question": "Wat is de verplichte frequentie van lekdichtheidscontrole voor een HFK-koelinstallatie met een koelmiddelinhoud van 50 tot 500 ton CO-equivalent 2 die voorzien is van een adequaat en goed functionerend lekdetectiesysteem?",
+      "options": {
+        "A": "om de 6 maanden",
+        "B": "om de 2 jaar",
+        "C": "om de 12 maanden",
+        "D": "om de 18 maanden"
+      },
+      "correct_answer": "C",
+      "source_page": 41,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “om de 12 maanden”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “om de 12 maanden”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 30,
+      "question": "Welk van de volgende koelmiddelen mag men niet meer gebruiken voor bijvullingen?",
+      "options": {
+        "A": "R134a",
+        "B": "R410A",
+        "C": "R22",
+        "D": "R507"
+      },
+      "correct_answer": "C",
+      "source_page": 41,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “R22”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “R22”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 31,
+      "question": "Welk koelmiddel is een gefluoreerd broeikasgas?",
+      "options": {
+        "A": "R717",
+        "B": "pekeloplossing",
+        "C": "glycolwater",
+        "D": "R407C"
+      },
+      "correct_answer": "D",
+      "source_page": 41,
+      "explanation": "De officiële examensleutel geeft “R407C” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “R407C” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 32,
+      "question": "Wat is de voorgeschreven gevoeligheid van een elektronische lekdetector die moet worden gebruikt?",
+      "options": {
+        "A": "5 g/jaar",
+        "B": "5% van de koelmiddelinhoud van de installatie",
+        "C": "1000 ppm of 1400 gram per jaar",
+        "D": "100 gram per jaar"
+      },
+      "correct_answer": "A",
+      "source_page": 41,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “5 g/jaar”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “5 g/jaar”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 33,
+      "question": "Vanaf welke datum mogen er geen gerecycleerde HCFK's meer gebruikt worden?",
+      "options": {
+        "A": "1/01/2017",
+        "B": "1/01/2016",
+        "C": "1/01/2014",
+        "D": "1/01/2015"
+      },
+      "correct_answer": "D",
+      "source_page": 41,
+      "explanation": "Volgens de officiële examensleutel is “1/01/2015” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “1/01/2015” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 34,
+      "question": "Welk koelmiddel behoort niet tot de groep van de HFK's (gefluoreerde broeikasgassen)?",
+      "options": {
+        "A": "R22",
+        "B": "R404a",
+        "C": "R134a",
+        "D": "R407c"
+      },
+      "correct_answer": "A",
+      "source_page": 41,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 35,
+      "question": "Wat moet er gebeuren indien aan een HFK-koelinstallatie een lek is gedicht?",
+      "options": {
+        "A": "dan moet binnen de maand na de herstelling van het lek (dit mag ook op de dag van de herstelling zelf) gecontroleerd worden of het lek daadwerkelijk hersteld is door een lekcontrole uit te voeren",
+        "B": "dan moet binnen de 14 dagen na de herstelling van het lek maar niet op de dag van de herstelling zelf gecontroleerd worden of het lek daadwerkelijk hersteld is door een lekcontrole uit te voeren",
+        "C": "dan moet binnen de maand na de herstelling van het lek maar niet op de dag van de herstelling zelf gecontroleerd worden of het lek daadwerkelijk hersteld is door een lekcontrole uit te voeren",
+        "D": "dan moet binnen de maand na de herstelling van het lek maar niet op de dag van de herstelling zelf de hele koelinstallatie opnieuw op lekkage gecontroleerd worden"
+      },
+      "correct_answer": "C",
+      "source_page": 41,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “dan moet binnen de maand na de herstelling van het lek maar niet op de dag van de herstelling zelf gecontroleerd worden of het lek daadwerkelijk hersteld is door een lekcontrole uit te voeren”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “dan moet binnen de maand na de herstelling van het lek maar niet op de dag van de herstelling zelf gecontroleerd worden of het lek daadwerkelijk hersteld is door een lekcontrole uit te voeren”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 36,
+      "question": "Wie mag koeltoestellen uitwendig reinigen?",
+      "options": {
+        "A": "iedereen",
+        "B": "uitsluitend een bevoegd koeltechnicus",
+        "C": "iedereen, maar enkel onder toezicht van een bevoegd koeltechnicus",
+        "D": "uitsluitend een gecertificeerd koeltechnicus"
+      },
+      "correct_answer": "A",
+      "source_page": 41,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “iedereen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “iedereen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 37,
+      "question": "Wie mag een elektrische herstelling uitvoeren aan een koelinstallatie?",
+      "options": {
+        "A": "een technisch bevoegd persoon",
+        "B": "uitsluitend een bevoegd koeltechnicus",
+        "C": "voor elektrische herstellingen is een certificaat \"B\" vereist",
+        "D": "iedereen, maar enkel onder toezicht van een bevoegd koeltechnicus"
+      },
+      "correct_answer": "A",
+      "source_page": 41,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een technisch bevoegd persoon”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een technisch bevoegd persoon”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 38,
+      "question": "Welke GWP-factor heeft R404A?",
+      "options": {
+        "A": "250",
+        "B": "1",
+        "C": "3922",
+        "D": "1340"
+      },
+      "correct_answer": "C",
+      "source_page": 41,
+      "explanation": "Volgens de officiële examensleutel is “3922” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “3922” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 39,
+      "question": "Aan welke eis moet de weegschaal van een koeltechnicus voldoen?",
+      "options": {
+        "A": "voor een hoeveelheid aan koelmiddel die kleiner is dan 30 kg moet de weegschaal een nauwkeurigheid hebben van minstens 10 gram, en voor een hoeveelheid aan koelmiddel die groter is dan of gelijk aan 30 kg van minstens 100 gram",
+        "B": "de weegschaal moet minstens 120 kg kunnen wegen met een nauwkeurigheid van 120 gram",
+        "C": "voor 10 kg of minder moet de weegschaal een nauwkeurigheid hebben van minstens 10 gram, en voor meer dan 10 kg minstens 100 gram",
+        "D": "de weegschaal moet minstens 15 kg en hoogstens 100 kg kunnen wegen met een nauwkeurigheid van 50 gram"
+      },
+      "correct_answer": "A",
+      "source_page": 42,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “voor een hoeveelheid aan koelmiddel die kleiner is dan 30 kg moet de weegschaal een nauwkeurigheid hebben van minstens 10 gram, en voor een hoeveelheid aan koelmiddel die groter is dan of gelijk aan 30 kg van minstens 100 gram”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “voor een hoeveelheid aan koelmiddel die kleiner is dan 30 kg moet de weegschaal een nauwkeurigheid hebben van minstens 10 gram, en voor een hoeveelheid aan koelmiddel die groter is dan of gelijk aan 30 kg van minstens 100 gram”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 40,
+      "question": "Moet een koeltechnicus ook een zeepoplosssing of een dergelijk product meenemen als hij reeds een elektronische lekdetector bij zich heeft?",
+      "options": {
+        "A": "neen, de zeepoplossing is eigenlijk overbodig",
+        "B": "neen, hij moet een lekdetector of een zeepoplossing bij zich hebben",
+        "C": "ja, omdat bij grote lekken de lekdetector overal koelmiddellekkage zal vaststellen",
+        "D": "ja, omdat bij grote lekken een lekdetector stuk kan gaan"
+      },
+      "correct_answer": "C",
+      "source_page": 42,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “ja, omdat bij grote lekken de lekdetector overal koelmiddellekkage zal vaststellen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “ja, omdat bij grote lekken de lekdetector overal koelmiddellekkage zal vaststellen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 41,
+      "question": "Een koeltechnicus is zijn stikstoffles vergeten en moet op herstelling hardsolderen. Mag hij aan de installatie hardsolderen?",
+      "options": {
+        "A": "neen, dit is niet toegestaan",
+        "B": "ja, om emissies te vermijden",
+        "C": "ja, voor zover hij soldeert met 30% zilver",
+        "D": "ja, indien de exploitant de toelating geeft"
+      },
+      "correct_answer": "A",
+      "source_page": 42,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “neen, dit is niet toegestaan”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “neen, dit is niet toegestaan”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 42,
+      "question": "Mag de thermometer van een bevoegd koeltechnicus zich beperken tot een gewone mechanische wijzerthermometer?",
+      "options": {
+        "A": "ja, als hij maar nauwkeurig de temperaturen aanduidt",
+        "B": "neen, hij moet uitgerust zijn met een digitale thermometer met een contactsonde of met een infraroodthermometer",
+        "C": "ja, maar alleen als het over een gekalibreerd toestel gaat",
+        "D": "neen, hij moet uitgerust zijn met een digitale thermometer met minstens 4 cijfers na de komma"
+      },
+      "correct_answer": "B",
+      "source_page": 42,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “neen, hij moet uitgerust zijn met een digitale thermometer met een contactsonde of met een infraroodthermometer”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “neen, hij moet uitgerust zijn met een digitale thermometer met een contactsonde of met een infraroodthermometer”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 43,
+      "question": "Mag een gecertificeerd koeltechnisch bedrijf zijn bevoegde koeltechnici herstellingen aan koelmiddelbevattende onderdelen laten uitvoeren zonder dat zij over de koeltechnische minimumuitrusting beschikken?",
+      "options": {
+        "A": "ja, het bedrijf mag er ten allen tijde van uitgaan dat de technici zelf het nodige bij zich hebben",
+        "B": "neen",
+        "C": "het bedrijf mag dat alleen toelaten wanneer de technicus over minstens 5 jaar ervaring beschikt",
+        "D": "het bedrijf mag dit alleen toelaten wanneer de technicus werkt onder het toezicht van een gecertificeerde technicus"
+      },
+      "correct_answer": "B",
+      "source_page": 42,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “neen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “neen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 44,
+      "question": "Welke koelinstallaties werkende op gefluoreerde broeikasgassen moeten niet iedere 12 maanden op lekken worden gecontroleerd?",
+      "options": {
+        "A": "installaties zonder een lekkagedetectiesysteem en met een koelmiddelinhoud van 10 ton CO-equivalent 2",
+        "B": "hermetisch afgesloten systemen met een koelmiddelinhoud van minder dan 10 ton CO - 2 equivalent die als dusdanig zijn gemerkt",
+        "C": "installaties zonder een lekkagedetectiesysteem en met een expansieventiel en met een koelmiddelinhoud van 49 ton CO-equivalent 2",
+        "D": "installaties met een lekkagedetectiesysteem en met een koelmiddelinhoud van 100 ton CO-equivalent 2"
+      },
+      "correct_answer": "B",
+      "source_page": 43,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 45,
+      "question": "Moet het type koelmiddel in een koelinstallatie worden genoteerd op de instructiekaart?",
+      "options": {
+        "A": "er zijn geen eisen omtrent het aanduiden van het type koelmiddel op de instructiekaart",
+        "B": "ja, voor koelinstallaties met een nominale koelmiddelinhoud van 30 kg of meer en van het niet- hermetisch gesloten type",
+        "C": "ja, voor koelinstallaties met een nominale koelmiddelinhoud van 3 kg of meer en van het niet- hermetisch gesloten type",
+        "D": "ja, voor koelinstallaties met een nominale koelmiddelinhoud van 300 kg of meer en van het niet- hermetisch gesloten type"
+      },
+      "correct_answer": "C",
+      "source_page": 43,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “ja, voor koelinstallaties met een nominale koelmiddelinhoud van 3 kg of meer en van het niet- hermetisch gesloten type”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “ja, voor koelinstallaties met een nominale koelmiddelinhoud van 3 kg of meer en van het niet- hermetisch gesloten type”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 46,
+      "question": "Wat wordt verstaan onder 'recycling' van koelmiddel?",
+      "options": {
+        "A": "het hergebruik van teruggewonnen koelmiddel na een eenvoudig reinigingsproces",
+        "B": "het hergebruik van teruggewonnen koelmiddel dat zodanig opgewerkt is dat het vergelijkbaar is aan nieuw geproduceerd koelmiddel",
+        "C": "het hergebruik van teruggewonnen koelmiddel zonder voorafgaande reiniging of opwerking",
+        "D": "koelmiddel terugwinnen"
+      },
+      "correct_answer": "A",
+      "source_page": 43,
+      "explanation": "Volgens de officiële examensleutel is “het hergebruik van teruggewonnen koelmiddel na een eenvoudig reinigingsproces” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “het hergebruik van teruggewonnen koelmiddel na een eenvoudig reinigingsproces” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 47,
+      "question": "Hoe dikwijls moet een installatie met 20 ton CO- 2 equivalent aan gefluoreerde broeikasgassen op lekken worden nagezien als er bij een vorige controle geen lekkage werd vastgesteld?",
+      "options": {
+        "A": "om de 6 maanden wanneer geen lekkagedetectiesysteem geïnstalleerd is",
+        "B": "om de 12 maanden wanneer een lekkagedetectiesysteem geïnstalleerd is",
+        "C": "om de 12 maanden wanneer geen lekkagedetectiesysteem geïnstalleerd is",
+        "D": "om de 6 maanden wanneer een lekkagedetectiesysteem geïnstalleerd is"
+      },
+      "correct_answer": "C",
+      "source_page": 43,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 48,
+      "question": "Zijn flareverbindingen altijd toegestaan?",
+      "options": {
+        "A": "zij zijn alleen toegestaan wanneer ze regelmatig kunnen worden losgemaakt",
+        "B": "ja, maar het gebruik ervan wordt niet aanbevolen",
+        "C": "zij zijn verboden in de koeltechniek",
+        "D": "alleen de euro-koppelingen (bv. STEK-verbindingen) zijn nog toegestaan"
+      },
+      "correct_answer": "B",
+      "source_page": 43,
+      "explanation": "De officiële examensleutel geeft “ja, maar het gebruik ervan wordt niet aanbevolen” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “ja, maar het gebruik ervan wordt niet aanbevolen” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 49,
+      "question": "Een bevoegd koeltechnicus moet over een weegschaal beschikken met een nauwkeurigheid van 10 g als:",
+      "options": {
+        "A": "hij over een koelmiddelcilinder met een inhoud van meer dan 30 kg beschikt",
+        "B": "hij over een koelmiddelcilinder met een inhoud van 300 kg beschikt",
+        "C": "hij over een koelmiddelcilinder met een inhoud van minder dan 30 kg beschikt",
+        "D": "alle voorgaande antwoorden zijn onjuist"
+      },
+      "correct_answer": "C",
+      "source_page": 43,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “hij over een koelmiddelcilinder met een inhoud van minder dan 30 kg beschikt”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “hij over een koelmiddelcilinder met een inhoud van minder dan 30 kg beschikt”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 50,
+      "question": "Hoe vaak moet een lekdichtheidscontrole voor een installatie, gevuld met R22 en met een nominale koelmiddelinhoud van 3 kg of meer en minder dan 30 kg gebeuren?",
+      "options": {
+        "A": "iedere 3 maanden",
+        "B": "iedere 6 maanden",
+        "C": "iedere 12 maanden",
+        "D": "iedere 24 maanden"
+      },
+      "correct_answer": "C",
+      "source_page": 43,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “iedere 12 maanden”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “iedere 12 maanden”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 51,
+      "question": "Een koelinstallatie met een een nominale koelmiddelinhoud van 10 ton CO-equivalent aan 2 gefluoreerde broeikasgassen heeft verplicht:",
+      "options": {
+        "A": "een lekdetectiesysteem",
+        "B": "een temperatuurs- en drukcontrole",
+        "C": "een logboek",
+        "D": "een kijkglas"
+      },
+      "correct_answer": "C",
+      "source_page": 44,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 52,
+      "question": "De voornaamse reden waarvoor een logboek wordt bijgehouden is:",
+      "options": {
+        "A": "om te beschikken over een document dat regelmatig wordt geparafeerd",
+        "B": "om te beschikken over een document dat op fouten wordt gecontroleerd door een keuringsorganisme",
+        "C": "om te beschikken over een document dat enkel en alleen is ingevuld met alle onderhoudswerkzaamheden",
+        "D": "om te beschikken over een document waarin alle onderhoudswerkzaam- heden en de hoeveelheden koelmiddel die werden afgetapt of bijgevuld, worden vermeld"
+      },
+      "correct_answer": "D",
+      "source_page": 44,
+      "explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "post_answer_explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 53,
+      "question": "De ozonlaag:",
+      "options": {
+        "A": "wordt niet aangetast door R12 of door R22",
+        "B": "wordt niet aangetast door chloorhoudende koelmiddelen",
+        "C": "wordt aangetast door R134a",
+        "D": "wordt aangetast door chloorhoudende koelmiddelen"
+      },
+      "correct_answer": "D",
+      "source_page": 44,
+      "explanation": "De officiële examensleutel geeft “wordt aangetast door chloorhoudende koelmiddelen” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “wordt aangetast door chloorhoudende koelmiddelen” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 54,
+      "question": "Welke van de volgende stellingen is correct?",
+      "options": {
+        "A": "de uitstoot van 1 kg R134a is even slecht voor het broeikaseffect als de uitstoot van 1,43 kg CO 2",
+        "B": "de uitstoot van 1 kg R134a is even slecht voor het broeikaseffect als de uitstoot van 14,3 kg CO 2",
+        "C": "de uitstoot van 1 kg R134a is even slecht voor het broeikaseffect als de uitstoot van 143 kg CO 2",
+        "D": "de uitstoot van 1 kg R134a is even slecht voor het broeikaseffect als de uitstoot van 1,43 ton CO 2"
+      },
+      "correct_answer": "D",
+      "source_page": 44,
+      "explanation": "Volgens de officiële examensleutel is “de uitstoot van 1 kg R134a is even slecht voor het broeikaseffect als de uitstoot van 1,43 ton CO 2” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “de uitstoot van 1 kg R134a is even slecht voor het broeikaseffect als de uitstoot van 1,43 ton CO 2” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 55,
+      "question": "Welke van deze koelmiddelen heeft een ODP-waarde groter dan nul?",
+      "options": {
+        "A": "R22",
+        "B": "R404A",
+        "C": "R134a",
+        "D": "R407C"
+      },
+      "correct_answer": "A",
+      "source_page": 44,
+      "explanation": "Volgens de officiële examensleutel is “R22” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “R22” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 56,
+      "question": "Welke stof is in hoofdzaak verantwoordelijk voor de aantasting van de ozonlaag?",
+      "options": {
+        "A": "fluor",
+        "B": "chloor",
+        "C": "waterstof",
+        "D": "zuurstof"
+      },
+      "correct_answer": "B",
+      "source_page": 44,
+      "explanation": "Volgens de officiële examensleutel is “chloor” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “chloor” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 57,
+      "question": "Wat is het directe effect van de aantasting van de ozonlaag?",
+      "options": {
+        "A": "de toename van de UV- straling van de zon op leefniveau",
+        "B": "de opwarming van de aarde",
+        "C": "het afsmelten van de poolkappen",
+        "D": "het toenemen van de zure regen"
+      },
+      "correct_answer": "A",
+      "source_page": 44,
+      "explanation": "Volgens de officiële examensleutel is “de toename van de UV- straling van de zon op leefniveau” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “de toename van de UV- straling van de zon op leefniveau” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 58,
+      "question": "Wat wordt verstaan onder het actualisatie-examen?",
+      "options": {
+        "A": "het examen waarvoor geslaagd moet worden om de geldigheid van het certificaat met 5 jaar te verlengen",
+        "B": "het examen dat moet worden afgelegd door gecertificeerde technici uit een andere EU- lidstaat",
+        "C": "het examen dat moet worden afgelegd wanneer men niet is geslaagd in een eerste examen",
+        "D": "het examen dat moet worden afgelegd telkens de techniek in de koeling grondig wijzigt"
+      },
+      "correct_answer": "A",
+      "source_page": 44,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “het examen waarvoor geslaagd moet worden om de geldigheid van het certificaat met 5 jaar te verlengen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “het examen waarvoor geslaagd moet worden om de geldigheid van het certificaat met 5 jaar te verlengen”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 59,
+      "question": "Waar kan het examen voor de certificering worden afgelegd?",
+      "options": {
+        "A": "in alle centra voor middenstandsopleiding",
+        "B": "in alle Belgische universiteiten",
+        "C": "alleen in een gecertificeerd examencentrum",
+        "D": "in elke school of opleidingscentrum waar het vak koeltechniek wordt gegeven"
+      },
+      "correct_answer": "C",
+      "source_page": 44,
+      "explanation": "De officiële examensleutel geeft “alleen in een gecertificeerd examencentrum” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “alleen in een gecertificeerd examencentrum” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 60,
+      "question": "Waar kan de gebruiker van een installatie met gefluoreerde broeikasgassen met een koelmiddelinhoud van 10 ton CO-equivalent 2 vinden wie hij moet bellen bij defect, bij brand, hoe hij de installatie moet uitschakelen, welke drukken er optreden?",
+      "options": {
+        "A": "bij zulke installatie hoort een instructiekaart waarop al deze gegevens vermeld zijn",
+        "B": "al die gegevens staan genoteerd in het logboek dat bij de installatie ligt",
+        "C": "hij hoeft slechts de gebruiksaanwijzing van de installatie te raadplegen, waarin al die gegevens te vinden zijn",
+        "D": "hij moet bellen naar de installateur"
+      },
+      "correct_answer": "A",
+      "source_page": 45,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 61,
+      "question": "Is een logboek altijd verplicht?",
+      "options": {
+        "A": "ja",
+        "B": "neen, enkel voor installaties met een nominale koelmiddelinhoud van 3 kg of meer",
+        "C": "neen, enkel voor koelinstallaties met een nominale koelmiddelinhoud van meer dan 30 kg",
+        "D": "neen, enkel voor installaties met een nominale koelmiddelinhoud van meer dan 300 kg"
+      },
+      "correct_answer": "B",
+      "source_page": 45,
+      "explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "post_answer_explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 62,
+      "question": "Een logboek moet aanwezig zijn:",
+      "options": {
+        "A": "in de wagen van de koeltechnicus",
+        "B": "op het kantoor van het koeltechnisch bedrijf",
+        "C": "bij of in de nabijheid van de koelinstallatie",
+        "D": "één van de drie voorgaande antwoorden is juist, zolang het logboek maar geraadpleegd kan worden"
+      },
+      "correct_answer": "C",
+      "source_page": 45,
+      "explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "post_answer_explanation": "Een logboek documenteert belangrijke gegevens zoals koudemiddelinhoud, interventies, recuperaties en lekcontroles. Zo kan de installatiegeschiedenis worden opgevolgd en gecontroleerd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 63,
+      "question": "Voor een gecertificeerd koeltechnisch bedrijf is een koelmiddelboekhouding:",
+      "options": {
+        "A": "verplicht",
+        "B": "niet verplicht",
+        "C": "verplicht vanaf een jaarlijkse aankoop van koelmiddel van meer dan 30 kg",
+        "D": "verplicht vanaf een jaarlijkse aankoop van koelmiddel van meer dan 300 kg"
+      },
+      "correct_answer": "A",
+      "source_page": 45,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “verplicht”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “verplicht”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 64,
+      "question": "Het (bij)vullen van koelmiddel aan een koelinstallatie die HFK's bevat, moet worden uitgevoerd door:",
+      "options": {
+        "A": "een gecertificeerd koeltechnicus die werkt in een koeltechnisch bedrijf dat is gecertificeerd",
+        "B": "een bevoegd technicus die werkt in een koeltechnisch bedrijf dat niet gecertificeerd is",
+        "C": "een technicus onder toezicht van een ervaren koeltechnicus",
+        "D": "de 3 voorgaande antwoorden zijn mogelijk"
+      },
+      "correct_answer": "A",
+      "source_page": 45,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een gecertificeerd koeltechnicus die werkt in een koeltechnisch bedrijf dat is gecertificeerd”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een gecertificeerd koeltechnicus die werkt in een koeltechnisch bedrijf dat is gecertificeerd”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 65,
+      "question": "Welke koelinstallaties gevuld met gefluoreerde broeikasgassen als koelmiddel moeten iedere twaalf maanden op lekken worden gecontroleerd ervan uitgaande dat er minstens 3 kg in de koelinstallatie aanwezig is?",
+      "options": {
+        "A": "enkel installaties met een nominale koelmiddelinhoud van 5 ton CO -equivalent of 2 meer en minder dan 50 ton CO -equivalent 2",
+        "B": "enkel installaties met een nominale koelmiddelinhoud van 10 ton CO-equivalent of 2 meer en minder dan 50 ton CO-equivalent 2",
+        "C": "enkel installaties met een nominale koelmiddelinhoud van 15 ton CO-equivalent of 2 meer en minder dan 50 ton CO-equivalent 2",
+        "D": "enkel installaties met een nominale koelmiddelinhoud van 20 ton CO-equivalent of 2 meer en minder dan 50 ton CO-equivalent 2"
+      },
+      "correct_answer": "A",
+      "source_page": 45,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 66,
+      "question": "Binnen welke termijn moet de reparatie van een lek van een installatie met R134a gecontroleerd worden met een nieuwe controle op lekdichtheid?",
+      "options": {
+        "A": "binnen de 2 weken",
+        "B": "binnen de 6 maanden",
+        "C": "binnen de 12 maanden",
+        "D": "binnen 1 maand"
+      },
+      "correct_answer": "D",
+      "source_page": 45,
+      "explanation": "De examensleutel gebruikt hier de definitie of term “binnen 1 maand”. Dit is de bron-specifieke Nederlandstalige terminologie die voor deze quiz moet worden aangehouden.",
+      "post_answer_explanation": "De examensleutel gebruikt hier de definitie of term “binnen 1 maand”. Dit is de bron-specifieke Nederlandstalige terminologie die voor deze quiz moet worden aangehouden.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 67,
+      "question": "Als blijkt dat na herstelling het relatief lekverlies gedurende twee opeenvolgende kalenderjaren telkens meer dan 10% bedraagt, binnen welke tijd moet de installatie normaal gezien buiten gebruik gesteld worden?",
+      "options": {
+        "A": "binnen de 6 maanden",
+        "B": "binnen de 12 maanden",
+        "C": "binnen de 18 maanden",
+        "D": "na de 3e vruchteloze poging om ze lekdicht te maken"
+      },
+      "correct_answer": "B",
+      "source_page": 46,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “binnen de 12 maanden”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “binnen de 12 maanden”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 68,
+      "question": "Vanaf welke koelmiddelinhoud moeten installaties met een HFK- koelmiddel worden voorzien van een vast lekdetectiesysteem?",
+      "options": {
+        "A": "200 ton CO-equivalent 2",
+        "B": "500 ton CO -equivalent 2",
+        "C": "100 ton CO-equivalent 2",
+        "D": "70 ton CO-equivalent 2"
+      },
+      "correct_answer": "B",
+      "source_page": 46,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “500 ton CO -equivalent 2”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “500 ton CO -equivalent 2”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 69,
+      "question": "Om de hoeveel tijd moeten lekdetectiesystemen worden gecontroleerd?",
+      "options": {
+        "A": "om de 6 maanden",
+        "B": "om de 3 maanden",
+        "C": "om de 12 maanden",
+        "D": "om de 24 maanden"
+      },
+      "correct_answer": "C",
+      "source_page": 46,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “om de 12 maanden”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “om de 12 maanden”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 70,
+      "question": "Wat betekent de GWP- waarde van een koelmiddel?",
+      "options": {
+        "A": "het vermogen om het klimaat op te warmen",
+        "B": "het vermogen om de ozonlaag af te breken",
+        "C": "het vermogen om het klimaat af te koelen",
+        "D": "het vermogen van een koelmiddel om een ruimte af te koelen"
+      },
+      "correct_answer": "A",
+      "source_page": 46,
+      "explanation": "De examensleutel gebruikt hier de definitie of term “het vermogen om het klimaat op te warmen”. Dit is de bron-specifieke Nederlandstalige terminologie die voor deze quiz moet worden aangehouden.",
+      "post_answer_explanation": "De examensleutel gebruikt hier de definitie of term “het vermogen om het klimaat op te warmen”. Dit is de bron-specifieke Nederlandstalige terminologie die voor deze quiz moet worden aangehouden.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 71,
+      "question": "Indien een installatie met R22 lekt, dan mag men na het herstel van het lek:",
+      "options": {
+        "A": "de installatie nooit met R22 bijvullen; indien te weinig koelmiddel aanwezig is, zal men op zoek moeten gaan naar een andere oplossing (bv. gebruik van een ander koelmiddel)",
+        "B": "de installatie enkel bijvullen met gerecycleerde of geregenereerde R22",
+        "C": "de installatie bijvullen met R22, ongeacht of dit koelmiddel nieuw geproduceerd, gerecycleerd of geregenereerd is",
+        "D": "de installatie enkel bijvullen met nieuw geproduceerd R22"
+      },
+      "correct_answer": "A",
+      "source_page": 46,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de installatie nooit met R22 bijvullen; indien te weinig koelmiddel aanwezig is, zal men op zoek moeten gaan naar een andere oplossing (bv. gebruik van een ander koelmiddel)”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de installatie nooit met R22 bijvullen; indien te weinig koelmiddel aanwezig is, zal men op zoek moeten gaan naar een andere oplossing (bv. gebruik van een ander koelmiddel)”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 72,
+      "question": "Wat wordt verstaan onder 'regeneratie' van koelmiddel?",
+      "options": {
+        "A": "koelmiddel terugwinnen",
+        "B": "het hergebruik van teruggewonnen koelmiddel zonder voorafgaande reiniging of opwerking",
+        "C": "het hergebruik van teruggewonnen koelmiddel na een eenvoudig reinigingsproces",
+        "D": "het hergebruik van teruggewonnen koelmiddel dat zodanig opgewerkt is dat het vergelijkbaar is aan nieuw geproduceerd koelmiddel"
+      },
+      "correct_answer": "D",
+      "source_page": 46,
+      "explanation": "Volgens de officiële examensleutel is “het hergebruik van teruggewonnen koelmiddel dat zodanig opgewerkt is dat het vergelijkbaar is aan nieuw geproduceerd koelmiddel” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “het hergebruik van teruggewonnen koelmiddel dat zodanig opgewerkt is dat het vergelijkbaar is aan nieuw geproduceerd koelmiddel” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 73,
+      "question": "Volgens titel II van het VLAREM mag het maximale relatief lekverlies van koelinstallaties met een nominale koelmiddelinhoud van 3 kg of meer die gebruik maken van ozonlaagafbrekende stoffen en/of gefluoreerde broeikasgassen:",
+      "options": {
+        "A": "maximaal 3% per jaar bedragen",
+        "B": "maximaal 5% per jaar bedragen",
+        "C": "maximaal 10% per jaar bedragen",
+        "D": "maximaal 15% per jaar bedragen"
+      },
+      "correct_answer": "B",
+      "source_page": 47,
+      "explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "post_answer_explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 74,
+      "question": "Als het relatief lekverlies meer dan 5% per jaar bedraagt, moeten:",
+      "options": {
+        "A": "zo snel mogelijk en uiterlijk binnen de 14 dagen na vaststelling van het lekverlies de nodige maatregelen genomen worden om het lek op te sporen en te dichten",
+        "B": "zo snel mogelijk en uiterlijk binnen de 30 dagen na vaststelling van het lekverlies de nodige maatregelen genomen worden om het lek op te sporen en te dichten",
+        "C": "zo snel mogelijk en uiterlijk binnen de 2 maanden na vaststelling van het lekverlies de nodige maatregelen genomen worden om het lek op te sporen en te dichten",
+        "D": "zo snel mogelijk en uiterlijk binnen de 3 maanden na vaststelling van het lekverlies de nodige maatregelen genomen worden om het lek op te sporen en te dichten"
+      },
+      "correct_answer": "A",
+      "source_page": 47,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “zo snel mogelijk en uiterlijk binnen de 14 dagen na vaststelling van het lekverlies de nodige maatregelen genomen worden om het lek op te sporen en te dichten”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “zo snel mogelijk en uiterlijk binnen de 14 dagen na vaststelling van het lekverlies de nodige maatregelen genomen worden om het lek op te sporen en te dichten”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 75,
+      "question": "Mag afgetapt R22 weer gebruikt worden door de koeltechnicus?",
+      "options": {
+        "A": "ja, als men R22 goed bevonden heeft, mag men het enkel in dezelfde inrichting hergebruiken",
+        "B": "afgetapt R22 mag nooit worden hergebruikt",
+        "C": "ja, als men R22 goed bevonden heeft, mag men dit om het even waar hergebruiken",
+        "D": "ja, na R22 te hebben gedroogd en na het verlenen van een kwaliteitsattest"
+      },
+      "correct_answer": "B",
+      "source_page": 47,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “afgetapt R22 mag nooit worden hergebruikt”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “afgetapt R22 mag nooit worden hergebruikt”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 76,
+      "question": "Welke van deze punten hoeft de instructiekaart niet noodzakelijk te vermelden?",
+      "options": {
+        "A": "het type koelmiddel dat wordt gebruikt",
+        "B": "de maximale toegelaten werkdrukken (LD-HD)",
+        "C": "instructies over de wijze waarop het koelsysteem moet worden getest op lekkage"
+      },
+      "correct_answer": "C",
+      "source_page": 47,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “instructies over de wijze waarop het koelsysteem moet worden getest op lekkage”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “instructies over de wijze waarop het koelsysteem moet worden getest op lekkage”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 77,
+      "question": "Een certificaat voor een koeltechnicus is:",
+      "options": {
+        "A": "een certificaat uitgereikt door een keuringsinstelling",
+        "B": "een certificaat uitgereikt door een gecertificeerd examencentrum",
+        "C": "een certificaat uitgereikt door een koeltechnisch bedrijf"
+      },
+      "correct_answer": "B",
+      "source_page": 47,
+      "explanation": "De officiële examensleutel geeft “een certificaat uitgereikt door een gecertificeerd examencentrum” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “een certificaat uitgereikt door een gecertificeerd examencentrum” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 78,
+      "question": "Hoe lang is een certificaat in de koeltechniek geldig?",
+      "options": {
+        "A": "2 jaar na datum van uitreiking",
+        "B": "3 jaar na datum van uitreiking",
+        "C": "5 jaar na datum van uitreiking",
+        "D": "6 jaar na datum van uitreiking"
+      },
+      "correct_answer": "C",
+      "source_page": 47,
+      "explanation": "De officiële examensleutel geeft “5 jaar na datum van uitreiking” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “5 jaar na datum van uitreiking” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 79,
+      "question": "Een koeltechnisch bedrijf dat een koelinstallatie met gefluoreerde broeikasgassen met een koelmiddelinhoud van 50 ton CO-equivalent 2 onderhoudt, beschikt over een keuringscertificaat:",
+      "options": {
+        "A": "dat niet ouder is dan 12 maanden, gerekend vanaf de datum van de keuring",
+        "B": "dat niet ouder is dan 24 maanden, gerekend vanaf de datum van keuring",
+        "C": "dat niet ouder is dan 3 jaar, gerekend vanaf de datum van keuring",
+        "D": "dat niet ouder is dan 5 jaar, gerekend vanaf de datum van keuring"
+      },
+      "correct_answer": "B",
+      "source_page": 47,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 80,
+      "question": "Welke van de volgende handelingen mag enkel worden uitgevoerd door een bevoegd koeltechnicus?",
+      "options": {
+        "A": "werkzaamheden aan het elektrische circuit van een koelinstallatie",
+        "B": "de montage van panelen van cellen waarin de verdamper van een nieuwe koelinstallatie moet geplaatst worden",
+        "C": "de herstelling aan een onderdeel van het koelmiddelcircuit",
+        "D": "het uitwendig reinigen van een koelinstallatie"
+      },
+      "correct_answer": "C",
+      "source_page": 47,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de herstelling aan een onderdeel van het koelmiddelcircuit”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de herstelling aan een onderdeel van het koelmiddelcircuit”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 81,
+      "question": "Een koeltechnisch bedrijf dat een certificaat wil behalen, moet gekeurd worden door:",
+      "options": {
+        "A": "een gecertificeerd koeltechnisch bedrijf dat werkzaamheden uitvoert aan de koelinstallaties",
+        "B": "een gecertificeerd examencentrum",
+        "C": "een gecertificeerd koeltechnicus",
+        "D": "een keuringsinstelling"
+      },
+      "correct_answer": "D",
+      "source_page": 48,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een keuringsinstelling”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een keuringsinstelling”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 82,
+      "question": "Het gecertificeerd koeltechnisch bedrijf moet onder meer de volgende zaken geregistreerd bijhouden:",
+      "options": {
+        "A": "de hoeveelheid koelmiddel die in elke koelinstallatie werd bijgevuld en afgetapt (+reden ervan)",
+        "B": "geen verplichting; het is de verantwoordelijkheid van de exploitant",
+        "C": "de plaats van stockage van koelmiddel bij de klant",
+        "D": "een register met de prestaties (uren en overuren) van de koeltechnici"
+      },
+      "correct_answer": "A",
+      "source_page": 48,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “de hoeveelheid koelmiddel die in elke koelinstallatie werd bijgevuld en afgetapt (+reden ervan)”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “de hoeveelheid koelmiddel die in elke koelinstallatie werd bijgevuld en afgetapt (+reden ervan)”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 83,
+      "question": "Een exploitant gebruikt een koelinstallatie met een inhoud van 25 kg koelmiddel. Wie moet een drukattest omtrent zijn koelinstallatie kunnen voorleggen aan de bevoegde ambtenaar?",
+      "options": {
+        "A": "er is slechts een attest nodig vanaf 200 kg; er is dus geen attest nodig",
+        "B": "de installateur van de koelinstallatie",
+        "C": "de exploitant van de koelinstallatie",
+        "D": "de instantie die de keuring van de installatie heeft gedaan"
+      },
+      "correct_answer": "C",
+      "source_page": 48,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de exploitant van de koelinstallatie”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “de exploitant van de koelinstallatie”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 84,
+      "question": "Mag afgetapt R134a weer gebruikt worden door de koeltechnicus?",
+      "options": {
+        "A": "ja, na R134a te hebben gedroogd en na het verlenen van een kwaliteitsattest",
+        "B": "ja, als men R134a goed bevonden heeft, mag men dit om het even waar hergebruiken",
+        "C": "ja, als men R134a goed bevonden heeft, mag men dit enkel in dezelfde inrichting hergebruiken",
+        "D": "afgetapt R134a mag nooit worden hergebruikt"
+      },
+      "correct_answer": "B",
+      "source_page": 48,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “ja, als men R134a goed bevonden heeft, mag men dit om het even waar hergebruiken”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “ja, als men R134a goed bevonden heeft, mag men dit om het even waar hergebruiken”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 85,
+      "question": "Welke certificeringscategorie heeft een persoon nodig om 6 ton CO-equivalent aan 2 R134a als koelmiddel uit een klein aircosysteem te halen?",
+      "options": {
+        "A": "I",
+        "B": "II",
+        "C": "III",
+        "D": "IV"
+      },
+      "correct_answer": "A",
+      "source_page": 48,
+      "explanation": "Volgens de officiële examensleutel is “I” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “I” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 86,
+      "question": "Hoe vaak moet een installatie met gefluoreerde broeikasgassen met een koelmiddelinhoud van 5 tot 50 ton CO-equivalent ten 2 minste gecontroleerd worden op lekdichtheid, ervan uitgaande dat er minstens 3 kg in de koelinstallatie aanwezig is?",
+      "options": {
+        "A": "om de 24 maanden wanneer een lekkagedetectiesysteem geïnstalleerd is",
+        "B": "om de 12 maanden wanneer een lekkagedetectiesysteem geïnstalleerd is",
+        "C": "om de 6 maanden wanneer geen lekkagedetectiesysteem geïnstalleerd is",
+        "D": "om de 18 maanden wanneer een lekkagedetectiesysteem geïnstalleerd is"
+      },
+      "correct_answer": "A",
+      "source_page": 48,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 87,
+      "question": "Welk koelmiddel zal het meest bijdragen tot de TEWI van een koelsysteem?",
+      "options": {
+        "A": "R290",
+        "B": "R744",
+        "C": "R717",
+        "D": "R404A"
+      },
+      "correct_answer": "D",
+      "source_page": 48,
+      "explanation": "De officiële examensleutel geeft “R404A” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “R404A” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 88,
+      "question": "Welk koelmiddel heeft het minste impact op de Global Warming?",
+      "options": {
+        "A": "R134a",
+        "B": "R404A",
+        "C": "R410A",
+        "D": "R744"
+      },
+      "correct_answer": "D",
+      "source_page": 49,
+      "explanation": "De officiële examensleutel geeft “R744” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “R744” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 89,
+      "question": "Het relatief lekverlies van een koelinstallatie wordt berekend:",
+      "options": {
+        "A": "door de hoeveelheden koelmiddel die zijn bijgevuld in een periode van twaalf maanden voorafgaand aan de berekening, in rekening te brengen",
+        "B": "door de hoeveelheid koelmiddel die de laatste keer is bijgevuld te delen door de koelmiddelinhoud",
+        "C": "door de hoeveelheden koelmiddel die in hetzelfde kalenderjaar aan een koelinstallatie zijn toegevoegd, in rekening te brengen",
+        "D": "door het gemiddelde van de hoeveelheden koelmiddel die in de laatste drie jaren voorafgaand aan de berekening aan de installatie zijn toegevoegd, in rekening te brengen"
+      },
+      "correct_answer": "C",
+      "source_page": 49,
+      "explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “door de hoeveelheden koelmiddel die in hetzelfde kalenderjaar aan een koelinstallatie zijn toegevoegd, in rekening te brengen”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "post_answer_explanation": "De juiste waarde of termijn volgens de examenbron van 13/02/2015 is “door de hoeveelheden koelmiddel die in hetzelfde kalenderjaar aan een koelinstallatie zijn toegevoegd, in rekening te brengen”. Omdat dit wetgeving betreft, moet deze waarde voor de quiz als brongebonden worden beschouwd; actuele regelgeving kan gewijzigd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 90,
+      "question": "Welke stof in R22 zorgt ervoor dat het bijvullen van R22 aan een installatie verboden is?",
+      "options": {
+        "A": "fluor",
+        "B": "chloor",
+        "C": "waterstof",
+        "D": "CO 2"
+      },
+      "correct_answer": "B",
+      "source_page": 49,
+      "explanation": "Volgens de officiële examensleutel is “chloor” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “chloor” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 91,
+      "question": "Het aftappen van koelmiddel van een koelinstallatie die HCFK's bevat, moet worden uitgevoerd door:",
+      "options": {
+        "A": "een koeltechnicus onder toezicht van een ervaren koeltechnicus",
+        "B": "een gecertificeerd koeltechnicus of een koeltechnicus onder toezicht van een ervaren koeltechnicus",
+        "C": "een gecertificeerd koeltechnicus",
+        "D": "de 3 voorgaande antwoorden zijn mogelijk"
+      },
+      "correct_answer": "C",
+      "source_page": 49,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een gecertificeerd koeltechnicus”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “een gecertificeerd koeltechnicus”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 92,
+      "question": "Van wat is ODP de afkorting?",
+      "options": {
+        "A": "oxygen dew point",
+        "B": "ozon depletion potential",
+        "C": "outside diameter pipe",
+        "D": "oil drainage point"
+      },
+      "correct_answer": "B",
+      "source_page": 49,
+      "explanation": "Volgens de officiële examensleutel is “ozon depletion potential” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “ozon depletion potential” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 93,
+      "question": "Houders van een certificaat categorie II: (vul aan)",
+      "options": {
+        "A": "mogen herstellingen uitvoeren aan het koelcircuit van koelinstallaties die 3 kg of meer HCFK's bevatten",
+        "B": "mogen herstellingen uitvoeren aan het koelcircuit van koelinstallaties die tot 3 kg HCFK's bevatten (of minder dan 6 kg indien hermetisch afgesloten systeem)",
+        "C": "mogen HCFK's terugwinnen uit koelinstallaties die 3 kg of meer HCFK's bevatten",
+        "D": "mogen enkel en alleen HCFK's terugwinnen uit koelinstallaties die minder dan 3 kg HCFK's bevatten (of minder dan 6 kg indien hermetisch afgesloten systeem)"
+      },
+      "correct_answer": "B",
+      "source_page": 49,
+      "explanation": "Categorie I is in de oude F-gassenregeling de ruimste persoonscertificatiecategorie en omvat de meeste handelingen aan stationaire koel-, airco- en warmtepompinstallaties met F-gassen.",
+      "post_answer_explanation": "Categorie I is in de oude F-gassenregeling de ruimste persoonscertificatiecategorie en omvat de meeste handelingen aan stationaire koel-, airco- en warmtepompinstallaties met F-gassen.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 94,
+      "question": "Houders van een certificaat categorie III: (vul aan)",
+      "options": {
+        "A": "mogen HCFK's terugwinnen uit koelinstallaties die minder dan 3 kg HCFK's bevatten (of minder dan 6 kg indien hermetisch afgesloten systeem)",
+        "B": "mogen herstellingen uitvoeren aan het koelcircuit van koelinstallaties die minder dan 3 kg HCFK's bevatten (of minder dan 6 kg indien hermetisch afgesloten systeem) en mogen HCFK's terugwinnen uit deze koelinstallaties",
+        "C": "mogen herstellingen uitvoeren aan het koelcircuit van koelinstallaties die 3 kg of meer HCFK's bevatten",
+        "D": "mogen HCFK's terugwinnen uit koelinstallaties die 3 kg of meer HCFK's bevatten"
+      },
+      "correct_answer": "A",
+      "source_page": 49,
+      "explanation": "Categorie I is in de oude F-gassenregeling de ruimste persoonscertificatiecategorie en omvat de meeste handelingen aan stationaire koel-, airco- en warmtepompinstallaties met F-gassen.",
+      "post_answer_explanation": "Categorie I is in de oude F-gassenregeling de ruimste persoonscertificatiecategorie en omvat de meeste handelingen aan stationaire koel-, airco- en warmtepompinstallaties met F-gassen.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 95,
+      "question": "Welke twee methodes van lekkagecontrole in koelinstallaties met gefluoreerde broeikasgassen onderscheidt men volgens Europese regelgeving?",
+      "options": {
+        "A": "de methode van Mollier en de directe meetmethode",
+        "B": "de directe meetmethode en de indirecte meetmethode",
+        "C": "de methode van Mollier en de indirecte meetmethode",
+        "D": "de methode van inwendige drukvereffening en de methode van uitwendige drukvereffening"
+      },
+      "correct_answer": "B",
+      "source_page": 49,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 96,
+      "question": "Mag een koeltechnicus nog HCFK's gebruiken om bij te vullen?",
+      "options": {
+        "A": "ja, als het een gecertificeerde koeltechnicus betreft",
+        "B": "nee, het gebruik van HCFK's is vanaf 01/01/2015 volledig verboden",
+        "C": "ja, maar enkel in installaties gebouwd vóór 2001",
+        "D": "ja, maar enkel gerecycleerde HCFK's"
+      },
+      "correct_answer": "B",
+      "source_page": 50,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “nee, het gebruik van HCFK's is vanaf 01/01/2015 volledig verboden”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “nee, het gebruik van HCFK's is vanaf 01/01/2015 volledig verboden”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 97,
+      "question": "Welke koelmiddelen hebben bij emissie de grootste directe negatieve invloed op het broeikaseffect?",
+      "options": {
+        "A": "NH 3",
+        "B": "CO 2",
+        "C": "HFK's",
+        "D": "alle koelmiddelen"
+      },
+      "correct_answer": "C",
+      "source_page": 50,
+      "explanation": "Volgens de officiële examensleutel is “HFK's” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “HFK's” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 98,
+      "question": "Welke ingedeelde koelinstallaties moeten regelmatig gecontroleerd worden op lekken?",
+      "options": {
+        "A": "enkel ingedeelde koelinstallaties met HFK's of HCFK's en met een nominale koelmiddelinhoud van meer dan 3 kg",
+        "B": "enkel ingedeelde koelinstallaties met HFK's, HCFK's, NH of CO en met 3 2 een nominale koelmiddelinhoud van meer dan 3 kg",
+        "C": "alle ingedeelde koelinstallaties, ongeacht het soort koelmiddel en de nominale koelmiddelinhoud",
+        "D": "alle ingedeelde koelinstallaties die werken op HFK's en HCFK's, ongeacht de koelmiddelinhoud"
+      },
+      "correct_answer": "C",
+      "source_page": 50,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “alle ingedeelde koelinstallaties, ongeacht het soort koelmiddel en de nominale koelmiddelinhoud”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “alle ingedeelde koelinstallaties, ongeacht het soort koelmiddel en de nominale koelmiddelinhoud”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 99,
+      "question": "Wat is de verplichte frequentie van controle op lekdichtheid bij een HFK- koelinstallatie met een goed werkend lekdetectiesysteem die meer dan 500 ton CO- 2 equivalent aan koelmiddel bevat?",
+      "options": {
+        "A": "elke 3 maand",
+        "B": "2 maal per jaar",
+        "C": "elke 6 maand",
+        "D": "elke 12 maanden"
+      },
+      "correct_answer": "C",
+      "source_page": 50,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “elke 6 maand”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “elke 6 maand”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 100,
+      "question": "Wanneer mag de frequentie van de lekdichtheidscontroles worden gehalveerd bij een installatie met gefluoreerde broeikasgassen?",
+      "options": {
+        "A": "als de koelinstallatie bij de laatste controle lekdicht was verklaard",
+        "B": "als de installatie niet ouder is dan 24 maanden",
+        "C": "als in het secundaire koelcircuit geen gefluoreerde broeikasgassen worden gebruikt",
+        "D": "als er een permanent lekdetectiesysteem geïnstalleerd is"
+      },
+      "correct_answer": "D",
+      "source_page": 50,
+      "explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "post_answer_explanation": "HFK's behoren tot de gefluoreerde broeikasgassen. Ammoniak, glycol en CO₂ vallen niet onder dezelfde HFK-categorie in deze examenindeling.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 101,
+      "question": "Wanneer mag de frequentie van de lekdichtheidscontroles worden gehalveerd bij een installatie met R22?",
+      "options": {
+        "A": "als de installatie niet ouder is dan 24 maanden",
+        "B": "als er een permanent lekdetectiesysteem geïnstalleerd is",
+        "C": "nooit",
+        "D": "als de koelinstallatie bij de laatste controle lekdicht is verklaard"
+      },
+      "correct_answer": "C",
+      "source_page": 50,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “nooit”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “nooit”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 102,
+      "question": "Nieuw geproduceerde koelmiddelen met een GWP- waarde van 2500 of meer mogen niet meer worden gebruikt om bestaande stationaire koelsystemen met een koelmiddelvulling van 40 ton CO-equivalent bij te 2 vullen vanaf:",
+      "options": {
+        "A": "1/01/2018",
+        "B": "1/01/2020",
+        "C": "1/01/2025",
+        "D": "1/01/2030"
+      },
+      "correct_answer": "B",
+      "source_page": 50,
+      "explanation": "Een stationaire installatie is bedoeld om tijdens normaal gebruik op een vaste plaats te functioneren. De certificatie- en lekcontrolevoorschriften in de bron richten zich onder meer op zulke installaties.",
+      "post_answer_explanation": "Een stationaire installatie is bedoeld om tijdens normaal gebruik op een vaste plaats te functioneren. De certificatie- en lekcontrolevoorschriften in de bron richten zich onder meer op zulke installaties.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 103,
+      "question": "Gerecycleerde of geregenereerde koelmiddelen met een GWP-waarde van 2500 of meer mogen niet meer worden gebruikt om bestaande stationaire koelsystemen met een koelmiddelvulling van 40 ton CO-equivalent bij te vullen 2 vanaf:",
+      "options": {
+        "A": "1/01/2025",
+        "B": "1/01/2030",
+        "C": "1/01/2032",
+        "D": "1/01/2035"
+      },
+      "correct_answer": "B",
+      "source_page": 51,
+      "explanation": "Een stationaire installatie is bedoeld om tijdens normaal gebruik op een vaste plaats te functioneren. De certificatie- en lekcontrolevoorschriften in de bron richten zich onder meer op zulke installaties.",
+      "post_answer_explanation": "Een stationaire installatie is bedoeld om tijdens normaal gebruik op een vaste plaats te functioneren. De certificatie- en lekcontrolevoorschriften in de bron richten zich onder meer op zulke installaties.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 104,
+      "question": "Een koelinstallatie gevuld met gefluoreerde broeikasgassen of ozonlaagafbrekende stoffen en met een koelmiddelinhoud van meer dan 30 kg kent een relatief lekverlies van meer dan 100%. Wat moet er ten minste gebeuren?",
+      "options": {
+        "A": "de installatie moet binnen de drie maanden buiten dienst worden gesteld en moet vervangen worden door een lekdicht systeem",
+        "B": "als de lekkage het gevolg is van een calamiteit en niet van structurele problemen, moet enkel de lekkage worden verholpen",
+        "C": "dit lekverlies moet binnen de veertien kalenderdagen aan de afdeling Milieu- inspectie gemeld worden",
+        "D": "de installatie moet na herstel worden gekeurd door een inspectie-organisme"
+      },
+      "correct_answer": "C",
+      "source_page": 51,
+      "explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "post_answer_explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 105,
+      "question": "Voor welke werkzaamheden aan een koelinstallatie met gefluoreerde broeikasgassen of ozonlaagafbrekende stoffen moet niet alleen de koeltechnicus maar ook het koeltechnisch bedrijf gecertificeerd zijn?",
+      "options": {
+        "A": "om koelmiddel aan de installatie toe te voegen",
+        "B": "om een lek te herstellen",
+        "C": "voor de aaneenkoppeling van twee leidingen waardoor koelmiddel zal stromen",
+        "D": "alle voorgaande antwoorden zijn juist"
+      },
+      "correct_answer": "D",
+      "source_page": 51,
+      "explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "post_answer_explanation": "Ozonlaagafbrekende stoffen zijn in deze examencontext de chloorhoudende CFK/HCFK-koudemiddelen. Ammoniak, HFK's en CO₂ hebben geen ozonafbrekend chloormechanisme zoals CFK/HCFK's.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 106,
+      "question": "Het is verboden om nieuw geproduceerde R404A bij te vullen aan een bestaande koelinstallatie met 40 ton CO- 2 equivalent of meer vanaf:",
+      "options": {
+        "A": "1/01/2020",
+        "B": "1/01/2030",
+        "C": "1/01/2015",
+        "D": "1/01/2025"
+      },
+      "correct_answer": "A",
+      "source_page": 51,
+      "explanation": "De officiële examensleutel geeft “1/01/2020” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “1/01/2020” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 107,
+      "question": "Het is verboden om gerecycleerde R404A bij te vullen aan een bestaande koelinstallatie met 40 ton CO- 2 equivalent of meer vanaf:",
+      "options": {
+        "A": "1/01/2015",
+        "B": "1/01/2020",
+        "C": "1/01/2025",
+        "D": "1/01/2030"
+      },
+      "correct_answer": "D",
+      "source_page": 51,
+      "explanation": "De officiële examensleutel geeft “1/01/2030” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "post_answer_explanation": "De officiële examensleutel geeft “1/01/2030” als correct antwoord. Deze toelichting is studieuitleg; voor wettelijke details blijft de bron uit 2015 leidend en actuele regels kunnen intussen veranderd zijn.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 108,
+      "question": "R507 is een mengsel dat bestaat uit 50% R125 (GWP- waarde = 3500) en 50% R143A (GWP-waarde = 4470). Wat is de GWP- waarde van R507?",
+      "options": {
+        "A": "7970",
+        "B": "4470",
+        "C": "0",
+        "D": "3985"
+      },
+      "correct_answer": "D",
+      "source_page": 52,
+      "explanation": "Volgens de officiële examensleutel is “3985” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "post_answer_explanation": "Volgens de officiële examensleutel is “3985” de juiste keuze. Deze vraag toetst de wettelijke of terminologische indeling zoals die in de bron van 2015 is vastgelegd.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 109,
+      "question": "Bij een koelinstallatie met een koelmiddelinhoud van 10 ton CO-equivalent aan R404A 2 werd op 1/01/2015 bij een lekkagecontrole geen lek vastgesteld. Er is geen lekkagedetectiesysteem aanwezig. Tegen wanneer moet de volgende lekkagecontrole uitgevoerd worden?",
+      "options": {
+        "A": "1/04/2015",
+        "B": "1/07/2015",
+        "C": "1/01/2016",
+        "D": "1/01/2017"
+      },
+      "correct_answer": "C",
+      "source_page": 52,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/01/2016”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/01/2016”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 110,
+      "question": "Bij een koelinstallatie met een koelmiddelinhoud van 10 ton CO-equivalent aan R404A 2 werd op 1/01/2015 bij een lekkagecontrole geen lek vastgesteld. Er is een lekkagedetectiesysteem aanwezig. Tegen wanneer moet de volgende lekkagecontrole uitgevoerd worden?",
+      "options": {
+        "A": "1/04/2015",
+        "B": "1/07/2015",
+        "C": "1/01/2016",
+        "D": "1/01/2017"
+      },
+      "correct_answer": "D",
+      "source_page": 52,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/01/2017”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/01/2017”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 111,
+      "question": "Bij een koelinstallatie met een koelmiddelinhoud van 100 ton CO-equivalent aan R404A 2 werd op 1/01/2015 bij een lekkagecontrole geen lek vastgesteld. Er is geen lekkagedetectiesysteem aanwezig. Tegen wanneer moet de volgende lekkagecontrole uitgevoerd worden?",
+      "options": {
+        "A": "1/04/2015",
+        "B": "1/07/2015",
+        "C": "1/01/2016",
+        "D": "1/01/2017"
+      },
+      "correct_answer": "B",
+      "source_page": 52,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/07/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/07/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 112,
+      "question": "Bij een koelinstallatie met een koelmiddelinhoud van 100 ton CO-equivalent aan R404A 2 werd op 1/01/2015 bij een lekkagecontrole geen lek vastgesteld. Er is een lekkagedetectiesysteem aanwezig. Tegen wanneer moet de volgende lekkagecontrole uitgevoerd worden?",
+      "options": {
+        "A": "1/04/2015",
+        "B": "1/07/2015",
+        "C": "1/01/2016",
+        "D": "1/01/2017"
+      },
+      "correct_answer": "C",
+      "source_page": 53,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/01/2016”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/01/2016”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 113,
+      "question": "Bij een koelinstallatie met een koelmiddelinhoud van 1000 ton CO-equivalent aan 2 R404A werd op 1/01/2015 bij een lekkagecontrole geen lek vastgesteld. Er is een lekkagedetectiesysteem aanwezig. Tegen wanneer moet de volgende lekkagecontrole uitgevoerd worden?",
+      "options": {
+        "A": "1/04/2015",
+        "B": "1/07/2015",
+        "C": "1/01/2016",
+        "D": "1/01/2017"
+      },
+      "correct_answer": "B",
+      "source_page": 53,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/07/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/07/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 114,
+      "question": "Bij een koelinstallatie met een koelmiddelinhoud van 100 kg R22 werd op 1/01/2015 bij een lekkagecontrole geen lek vastgesteld. Er is een lekkagedetectiesysteem aanwezig. Tegen wanneer moet de volgende lekkagecontrole uitgevoerd worden?",
+      "options": {
+        "A": "1/04/2015",
+        "B": "1/07/2015",
+        "C": "1/01/2016",
+        "D": "1/01/2017"
+      },
+      "correct_answer": "B",
+      "source_page": 53,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/07/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/07/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    },
+    {
+      "question_number": 115,
+      "question": "Bij een koelinstallatie met een koelmiddelinhoud van 350 kg R22 werd op 1/01/2015 bij een lekkagecontrole geen lek vastgesteld. Er is een lekkagedetectiesysteem aanwezig. Tegen wanneer moet de volgende lekkagecontrole uitgevoerd worden?",
+      "options": {
+        "A": "1/04/2015",
+        "B": "1/07/2015",
+        "C": "1/01/2016",
+        "D": "1/01/2017"
+      },
+      "correct_answer": "A",
+      "source_page": 53,
+      "explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/04/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "post_answer_explanation": "Volgens de regelgeving en werkwijze die in de examenbron van 2015 wordt getoetst, geldt: “1/04/2015”. Voor de quiz is dit het officiële bronantwoord; controleer voor echte werkzaamheden altijd de actuele regelgeving.",
+      "show_explanation_after_answer": true,
+      "verification": {
+        "correct_answer_verified_from_pdf_formatting": true,
+        "explanation_is_official_source_text": false,
+        "explanation_purpose": "studiehulp",
+        "legal_time_context": "bronversie 13/02/2015"
+      }
+    }
+  ]
+}
