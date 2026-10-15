@@ -58,6 +58,20 @@ footer a:hover{text-decoration:underline}
 .choice-card h3{color:#0d47a1;margin-bottom:.5rem}
 .choice-card p{font-size:.9rem;color:#6c757d}
 .choice-card .count{font-size:1.8rem;font-weight:700;color:var(--primary);margin:.6rem 0}
+
+/* Cookievoorkeuren: gelijkwaardige keuze om toe te staan of te weigeren */
+.cookie-settings{background:none;border:0;padding:.4rem;font:inherit;color:#0d47a1;text-decoration:underline;cursor:pointer}
+.cookie-settings:focus-visible,.cookie-banner button:focus-visible,.cookie-banner summary:focus-visible{outline:3px solid #1f75c2;outline-offset:3px}
+.cookie-banner{position:fixed;left:1rem;right:1rem;bottom:1rem;max-width:750px;margin:auto;z-index:1000;padding:1.35rem 1.5rem;background:#fff;border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 8px 36px rgba(0,0,0,.24);color:#212529}
+.cookie-banner[hidden]{display:none}
+.cookie-banner h2{font-size:1.15rem;margin:0 0 .55rem;color:#0d47a1}
+.cookie-banner p{font-size:.92rem;line-height:1.55;margin:.35rem 0 .9rem}
+.cookie-banner details{font-size:.86rem;margin:.5rem 0 1rem;color:#495057}
+.cookie-banner summary{cursor:pointer;color:#0d47a1;font-weight:600}
+.cookie-actions{display:flex;gap:.65rem;flex-wrap:wrap}
+.cookie-actions button{flex:1;min-width:200px;background:#0d47a1;color:#fff;border:2px solid #0d47a1;border-radius:8px;padding:.75rem 1rem;font-weight:650;cursor:pointer}
+.cookie-actions button:hover{background:#103b7c}
+@media(max-width:470px){.cookie-banner{left:.5rem;right:.5rem;bottom:.5rem;padding:1rem}.cookie-actions{flex-direction:column}.cookie-actions button{min-width:0}}
 </style>
 </head>
 <body>
@@ -124,9 +138,73 @@ footer a:hover{text-decoration:underline}
   <strong>Gemaakt door Abderrahmane El Abbadi</strong><br>
   <a href="https://wa.me/32465160225" target="_blank" rel="noopener">📱 WhatsApp: 0465 16 02 25</a><br>
   <a href="mailto:abderrahmaneelabbadi@hotmail.com">✉️ E-mail: abderrahmaneelabbadi@hotmail.com</a>
+  <div><button type="button" class="cookie-settings" id="cookie-settings">🍪 Cookie-instellingen</button></div>
 </footer>
+
+<div id="cookie-banner" class="cookie-banner" role="region" aria-labelledby="cookie-title" hidden>
+  <h2 id="cookie-title">🍪 Cookies op deze examenquiz</h2>
+  <p>We gebruiken een noodzakelijke cookie om je cookiekeuze te onthouden. Als je akkoord gaat, onthouden we ook je voorkeur voor <strong>Opties schudden</strong>. De quiz werkt ook als je optionele cookies weigert. We gebruiken geen advertentie- of trackingcookies.</p>
+  <details>
+    <summary>Welke cookies gebruiken we?</summary>
+    <p><strong>koeltechniek_cookie_consent</strong> (noodzakelijk): bewaart je keuze voor maximaal 180 dagen.<br>
+    <strong>koeltechniek_shuffle</strong> (optioneel): onthoudt of je antwoordopties wilt schudden, maximaal 180 dagen. Wordt alleen geplaatst nadat je toestemming geeft en verwijderd zodra je weigert.</p>
+  </details>
+  <div class="cookie-actions">
+    <button type="button" id="cookie-reject">Alleen noodzakelijke cookies</button>
+    <button type="button" id="cookie-accept">Voorkeurscookie toestaan</button>
+  </div>
+</div>
 <script>
 let questions=[], currentIndex=0, score=0, answered=false, selectedOption=null, currentSet='theorie';
+
+/* Cookies: geen niet-noodzakelijke opslag zonder toestemming. */
+const COOKIE_DAYS = 180;
+const COOKIE_MAX_AGE = 60 * 60 * 24 * COOKIE_DAYS;
+const COOKIE_PATH = location.pathname.endsWith('/')
+  ? location.pathname
+  : (location.pathname.slice(0, location.pathname.lastIndexOf('/') + 1) || '/');
+function readCookie(name){
+  const key = encodeURIComponent(name) + '=';
+  const entry = document.cookie.split('; ').find(part => part.startsWith(key));
+  if(!entry) return null;
+  try { return decodeURIComponent(entry.slice(key.length)); }
+  catch { return null; }
+}
+function writeCookie(name, value){
+  document.cookie = encodeURIComponent(name) + '=' + encodeURIComponent(value)
+    + '; Max-Age=' + COOKIE_MAX_AGE + '; Path=' + COOKIE_PATH + '; SameSite=Lax'
+    + (location.protocol === 'https:' ? '; Secure' : '');
+}
+function deleteCookie(name){
+  document.cookie = encodeURIComponent(name) + '=; Max-Age=0; Path=' + COOKIE_PATH + '; SameSite=Lax'
+    + (location.protocol === 'https:' ? '; Secure' : '');
+}
+function saveShufflePreference(){
+  if(readCookie('koeltechniek_cookie_consent') === 'accepted'){
+    writeCookie('koeltechniek_shuffle', document.getElementById('shuffleOpt').checked ? '1' : '0');
+  }
+}
+function setCookieChoice(allowed){
+  writeCookie('koeltechniek_cookie_consent', allowed ? 'accepted' : 'rejected');
+  if(allowed) saveShufflePreference();
+  else deleteCookie('koeltechniek_shuffle');
+  document.getElementById('cookie-banner').hidden = true;
+}
+document.getElementById('cookie-accept').addEventListener('click', () => setCookieChoice(true));
+document.getElementById('cookie-reject').addEventListener('click', () => setCookieChoice(false));
+document.getElementById('cookie-settings').addEventListener('click', () => {
+  document.getElementById('cookie-banner').hidden = false;
+  document.getElementById('cookie-reject').focus();
+});
+document.getElementById('shuffleOpt').addEventListener('change', saveShufflePreference);
+const existingCookieChoice = readCookie('koeltechniek_cookie_consent');
+if(existingCookieChoice === 'accepted'){
+  document.getElementById('shuffleOpt').checked = readCookie('koeltechniek_shuffle') === '1';
+} else {
+  deleteCookie('koeltechniek_shuffle');
+  if(existingCookieChoice !== 'rejected') document.getElementById('cookie-banner').hidden = false;
+}
+
 const FILES = {
   theorie: 'koeltechniek_deel1_362_volledig.json',
   wetgeving: 'koeltechniek_deel2_wetgeving_115.json'
